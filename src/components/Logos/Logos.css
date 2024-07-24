@@ -1,0 +1,8 @@
+
+.clientLogos {
+    padding: 150px 0;
+}
+
+.clientLogos .container {
+    justify-content: space-around;
+}

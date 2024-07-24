@@ -1,0 +1,29 @@
+.readMore {
+    padding-top: 200px;
+}
+
+.readMore .container {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.readMore__column {
+    text-align: center;
+}
+
+.readMore__content {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 22px;
+}
+
+.readMore__link {
+    text-decoration: none;
+    color: #292F36;
+    font-size: 18px;
+    transition: color .5s;
+}
+
+.readMore__link:hover {
+    color: blue;
+}
