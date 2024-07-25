@@ -1,0 +1,62 @@
+.footer__subtitle {
+    font-size: 22px; /* Зменшено для більш компактного вигляду */
+    margin: 15px 0 20px 0; /* Зменшено відступи */
+    color: #555; /* Змінено колір для більш м'якого вигляду */
+}
+
+.footer__social {
+    margin-right: 15px; /* Додано відступ між соціальними іконками */
+}
+
+.footer__social img {
+    width: 24px; /* Зменшено розмір іконок */
+    height: 24px;
+}
+
+.footer__column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.footer .container {
+    padding-bottom: 100px; /* Зменшено відступ знизу */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer__columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.footer__column__title {
+    font-size: 25px; /* Зменшено розмір для кращої читабельності */
+    font-weight: 700;
+    margin-bottom: 10px; /* Додано відступ знизу */
+    color: #333; /* Змінено колір */
+}
+
+.footer__column__nav {
+    text-decoration: none;
+    color: #292F36;
+    margin-top: 15px; /* Зменшено відступ */
+    font-size: 22px; /* Зменшено розмір шрифту */
+}
+
+.footer__column__nav:hover {
+    color: #007BFF; /* Змінено колір на синій при наведенні */
+}
+
+.footer .copyright {
+    text-align: center; /* Вирівнювання по центру */
+    padding: 20px 0; /* Додано відступи зверху та знизу */
+    font-size: 14px; /* Зменшено розмір шрифту */
+    color: #777; /* Змінено колір на більш м'який */
+    background-color: #f8f9fa; /* Додано фон для розділення від основного контенту */
+}

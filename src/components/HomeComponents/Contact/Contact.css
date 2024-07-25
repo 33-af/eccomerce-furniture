@@ -1,0 +1,56 @@
+.contact {
+    padding-top: 200px;
+}
+
+.contact .container {
+    justify-content: space-between;
+}
+
+.contact__subtitle {
+    padding: 35px 0 45px 0;
+    font-size: 22px;
+}
+
+.contact__number {
+    margin-bottom: 45px;
+}
+
+.phoneIcon__wrapper {
+    background-color: #F4F0EC;
+    border-radius: 50%;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    transition: background-color .5s;
+}
+
+.phoneIcon__wrapper:hover {
+    background-color: lightgray;
+}
+
+.phoneIcon {
+    width: 100%;
+    height: auto;
+}
+
+.number {
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #4D5053;
+}
+
+.callUs {
+    color: #4D5053;
+    font-size: 22px;
+}
+
+.contact__photo {
+    border-bottom-left-radius: 125px;
+    border-top-right-radius: 325px;
+}
+
+.arrow {
+    color: #CDA274;
+}

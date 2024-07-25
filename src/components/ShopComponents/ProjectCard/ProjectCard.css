@@ -1,0 +1,53 @@
+.projects__card__content {
+    margin-top: 25px;
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.projects__card__modern {
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.projects__card__decor {
+    font-size: 18px;
+    color: #777;
+}
+
+.projects__card__description {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #666;
+}
+
+.price {
+    font-size: 30px;
+    margin: 20px 0;
+    color: #CDA274;
+    font-weight: 700;
+}
+
+.favoritesButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+    align-self: flex-end;
+}
+
+.heart {
+    font-size: 25px;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.favoritesButton:hover .heart {
+    transform: scale(1.6);
+}
+
+.heart.filled {
+    filter: invert(50%);
+}

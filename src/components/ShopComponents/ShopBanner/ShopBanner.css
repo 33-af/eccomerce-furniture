@@ -1,0 +1,31 @@
+.banner {
+    background-image: url(../../../assets/projectsBanner.jpg);
+    padding-top: 175px;
+}
+
+.banner .container {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center; /* Центрирование текста */
+    max-width: 505px;
+    padding: 40px 20px; /* Уменьшены отступы для лучшего центрирования */
+    border-top-right-radius: 37px;
+    border-top-left-radius: 37px;
+    border: 1px solid #CDA274;
+}
+
+.banner__pages {
+    font-size: 22px;
+}
+
+.banner__pages a {
+    color: #4D5053;
+    text-decoration: none;
+    transition: color .5s;
+}
+
+.banner__pages a:hover {
+    color: blue;
+}

@@ -1,0 +1,22 @@
+.main .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: url(../../../assets/banner.png) no-repeat;
+    width: 100%;
+    /* Ви можете змінити це значення в залежності від ваших потреб */
+    background-size: cover; /* або cover */
+    background-position: center;
+    border-radius: 100px;
+    padding: 200px 52px;
+}
+
+.main__subtitle {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.arrow {
+    color: #CDA274;
+}

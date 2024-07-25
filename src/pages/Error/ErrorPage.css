@@ -1,0 +1,31 @@
+.fail404 .container {
+    min-height: 800px;
+    margin-bottom: 200px;
+}
+
+.fail404__text {
+    font-size: 250px;
+    color: #CDA274;
+}
+
+.fail404__subtitle {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 23px;
+}
+
+.fail404__left {
+    margin-right: 80px;
+}
+
+.fail404__right img {
+    max-width: 700px;
+    border-bottom-left-radius: 30%;
+    margin-left: auto;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 140px;
+   
+}
