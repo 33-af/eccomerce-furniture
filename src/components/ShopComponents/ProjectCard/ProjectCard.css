@@ -37,17 +37,59 @@
     cursor: pointer;
     transition: transform 0.3s;
     align-self: flex-end;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.heart, .cart {
+    font-size: 25px;
+    transition: transform 0.3s;
+    position: relative; /* Necessary for positioning pseudo-elements */
+    z-index: 1; /* Ensure the icon is above the pseudo-element */
 }
 
 .heart {
-    font-size: 25px;
-    transition: transform 0.3s, filter 0.3s;
+    margin-right: 10px;
+    color: white;
+    filter: invert(50%); /* Set default filter here */
 }
 
-.favoritesButton:hover .heart {
+.cart {
+    filter: invert(50%); /* Set default filter here */
+}
+
+.heart::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 0.3s; /* Smooth transition */
+    z-index: -1; /* Place behind the icon */
+}
+
+.heart:hover::before {
+    opacity: 0.5; /* Show red background on hover */
+}
+
+.heart:hover {
     transform: scale(1.6);
+    color: red;
+}
+
+.cart:hover {
+    transform: scale(1.7);
 }
 
 .heart.filled {
-    filter: invert(50%);
+    color: red;
+}
+
+.cart.filled {
+    filter: invert(100%); /* Ensure the filled state has a distinct look */
 }

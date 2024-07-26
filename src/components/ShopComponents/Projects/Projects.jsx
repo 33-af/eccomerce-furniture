@@ -3,6 +3,7 @@ import ShopFilter from '../ShopFilter/ShopFilter';
 import ProjectCard from '../ProjectCard/ProjectCard';
 import projects from '../../../Db/Db'
 import { useState } from 'react';
+import Pagination from '../Pagination/Pagination';
 
 const Projects = () => {
   const [selectedFilter, setSelectedFilter] = useState('All');
@@ -32,6 +33,7 @@ const Projects = () => {
           ))}
         </div>
       </div>
+      <Pagination/>
     </div>
   );
 };

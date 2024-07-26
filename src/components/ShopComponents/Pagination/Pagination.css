@@ -1,0 +1,43 @@
+.projectPagination {
+    justify-content: center;
+    gap: 20px;
+    margin: 50px auto;
+}
+
+.projectPagButton {
+    border: 1px solid #CDA274;
+    background: none;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 16px;
+    transition: background-color .5s;
+}
+
+.arrow___right {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow___left{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectPagButton:hover {
+    background-color:  #ad5c05;
+    
+   
+    transition: .1;
+}
+
+.projectPagButton.active {
+    background-color:  #c96d0b;
+    border: none;
+    color: white;
+    border: 1px solid #4d2e0c;
+   
+}

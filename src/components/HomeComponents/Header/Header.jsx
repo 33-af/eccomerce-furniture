@@ -1,7 +1,9 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { Logo, SearchIcon } from "../../../assets";
 import './Header.css';
-import {  useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+import { FaRegHeart } from "react-icons/fa";
+import { FaCartArrowDown } from "react-icons/fa6";
 
 const Header = () => {
   const [searchActive, setSearchActive] = useState(false);
@@ -59,22 +61,35 @@ const Header = () => {
         </div>
         <ul className={`header__navs flex ${menuActive ? 'active' : ''}`}>
           <li className="header__nav">
-            <Link to="/" className="header__nav__link">Home</Link>
+            <NavLink to="/" className="header__nav__link" activeClassName="active">Home</NavLink>
           </li>
           <li className="header__nav">
-            <Link to="/shop" className="header__nav__link">Shop</Link>
+            <NavLink to="/shop" className="header__nav__link" activeClassName="active">Most Sailed</NavLink>
           </li>
           <li className="header__nav">
-            <Link to="/services" className="header__nav__link">Services</Link>
+            <NavLink to="/services" className="header__nav__link" activeClassName="active">Services</NavLink>
           </li>
           <li className="header__nav">
-            <Link to="/project" data-goto=".gallery" className="header__nav__link">Project</Link>
+            <NavLink to="/blog" className="header__nav__link" activeClassName="active">Blog</NavLink>
+          </li>
+
+          <li className="header__nav">
+            <NavLink to="/login" className="header__nav__link" activeClassName="active">Log In</NavLink>
           </li>
           <li className="header__nav">
-            <Link to="/blog" className="header__nav__link">Blog</Link>
+            <NavLink to="/contact" className="header__nav__link" activeClassName="active">Contact</NavLink>
           </li>
           <li className="header__nav">
-            <Link to="/contact" className="header__nav__link">Contact</Link>
+            <NavLink to="/favoriteCart" className="header__nav__link" activeClassName="active"><FaRegHeart />
+            </NavLink>
+          </li>
+          <li className="header__nav">
+            <NavLink to="/shopCart" className="header__nav__link" activeClassName="active"><FaCartArrowDown />
+            </NavLink>
+          </li>
+          <li className="header__nav">
+            <NavLink to="/profile" className="header__nav__link" activeClassName="active">Profile
+            </NavLink>
           </li>
         </ul>
         <form className="searchForm flex">

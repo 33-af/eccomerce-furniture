@@ -4,75 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    word-break: break-word;
-    padding-top: 115px;
-
-}
-
-body.lock {
-    overflow: hidden;
-}
-
-h1, .h1 {
-    font-size: 65px;
-}
-
-h2, .h2 {
-    font-size: 50px;
-}
-
-h3, .h3 {
-    font-size: 25px;
-}
-
-.flex {
-    display: flex;
-    align-items: center;
-}
-
-.container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.btn {
-    display: inline-block;
-    font-size: 18px;
-    padding: 25px 45px;
-    color: white;
-    border-radius: 18px;
-    text-decoration: none;
-    transition: background-color .5s;
-}
-
-.grayBtn {
-    background-color: #292F36;
-}
-
-.grayBtn:hover {
-    background-color: #ff0007;
-}
-
-.cdaBtn {
-    background-color: #CDA274;
-}
-
-.cdaBtn:hover {
-    background-color: #ff0007;
-}
-
-.cdaBtn .arrow {
-    color: #292F36;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 html,
 body {
     height: 100%;
@@ -151,40 +82,178 @@ h3, .h3 {
     color: #292F36;
 }
 
-/* .anim-show {
-    transform: translate(0px, 120%);
-    opacity: 0;
-    transition: all 1.5s ease 0s;
+
+.createAccount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    padding: 0 30px; /* Отступы по бокам для выравнивания с заголовком */
+    box-sizing: border-box;
+    width: 100%; /* Занимает всю ширину экрана */
 }
 
-.anim-show.active,
-.active .anim-show{
-    transform: translate(0px, 0px);
-    opacity: 1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Контейнер для формы */
+.container_register {
+    background: #fdfdfd; /* Цвет фона для контейнера */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Занимает всю ширину доступного пространства */
+    max-width: 500px; /* Ограничиваем максимальную ширину контейнера */
+    box-sizing: border-box; /* Учитываем паддинги и границы в ширине */
 }
 
-.anim-items {
-    transform: translate(0px, 10%);
-    opacity: 0;
-    transition: all 1.5s ease 0s;
+/* Стили для заголовка */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #292F36;
 }
 
-.anim-items.active {
-    transform: translate(0px, 0px);
-    opacity: 1;
+/* Стили для текста регистрации */
+.createAccount__singInText {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #292F36;
 }
 
-.site-wrapper {
-    overflow: hidden;
+.createAccount__singInText a {
+    color: #CDA274;
+    text-decoration: none;
+    margin-left: 10px;
+  
+}
+label {
+    font-size: 14px;
+    color: #292F36;
+    margin-bottom: 10px; /* Отступ снизу от метки */
 }
 
-.anim-items {
-    transform: translate(0px, 10%);
-    opacity: 0;
-    transition: all 1.5s ease 0s;
+.createAccount__singInText a:hover {
+    text-decoration: underline;
 }
 
-.anim-items.active {
-    transform: translate(0px, 0px);
-    opacity: 1;
-} */
+/* Стили для формы регистрации */
+.createAccount__registrationForm {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Стили для входных полей */
+.createAccount__input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px; /* Отступ снизу от полей ввода */
+    font-size: 16px;
+    width: 100%; /* Поля ввода занимают всю ширину контейнера */
+    box-sizing: border-box; /* Учитываем паддинги и границы в ширине */
+}
+
+/* Стили для формы даты рождения */
+.birthdayForm {
+    margin-bottom: 20px;
+}
+
+.birthdayForm__title {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #292F36;
+    text-align: center;
+}
+
+.birthdayForm__inputsWrapper {
+    display: flex;
+    align-items: center;
+}
+
+/* Стили для полей даты рождения */
+.birthdayInput {
+    width: 80px;
+    padding: 8px;
+    border: 1px solid #fd2222;
+    border-radius: 4px;
+    margin: 0 5px;
+    font-size: 16px;
+}
+
+/* Стили для чекбоксов */
+.checkboxForm {
+    margin-bottom: 20px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkboxInput {
+    margin-right: 10px;
+}
+
+.checkboxForm__textContent {
+    font-size: 14px;
+    color: #292F36;
+}
+
+.checkboxForm__textContent a {
+    color: #CDA274;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.checkboxForm__textContent a:hover {
+    text-decoration: underline;
+}
+
+/* Стили для кнопки отправки */
+.submit {
+    background-color: #CDA274;
+    color: #fff;
+    border: none;
+    padding: 12px 20px; /* Более крупные отступы для кнопки */
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px; /* Отступ сверху от кнопки */
+}
+
+.submit:hover {
+    background-color: #b08d58;
+}
+span,
+p {
+    color: red;
+    font-size: 12px;
+    margin-top: -5px; /* Отрицательный отступ для размещения сообщения близко к полю */
+    margin-bottom: 15px; /* Отступ снизу от сообщения об ошибке */
+}

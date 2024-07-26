@@ -29,7 +29,7 @@ header li {
 }
 
 .header__nav__link:hover {
-    color: blue;
+    color: #8f89899f;
 }
 
 .header__nav ~ .header__nav {
@@ -56,4 +56,8 @@ header li {
 
 .header__search.active {
     display: block;
+}
+
+.header__nav__link.active {
+    border-bottom: 2px solid #CDA274;
 }

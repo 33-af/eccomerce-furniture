@@ -1,0 +1,122 @@
+.shop-cart {
+    padding: 20px;
+    max-width: 1200px; /* Ширина контейнера для карточек и кнопки */
+    margin: 0 auto; /* Центрирование контейнера */
+  }
+  
+  .empty-message {
+    font-size: 24px;
+    color: #888;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .button-wrapper {
+    display: flex;
+    justify-content: space-between; /* Располагает кнопки по краям контейнера */
+    margin-bottom: 20px; /* Отступ снизу для кнопок */
+  }
+  
+  .clear-button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-align: center; /* Текст по центру внутри кнопки */
+  }
+  
+  .clear-button:hover {
+    background-color: #cc0000;
+  }
+  
+  .return-button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-align: center; /* Текст по центру внутри кнопки */
+  }
+  
+  .return-button:hover {
+    background-color: #3f3d3dfd;
+  }
+  
+  .product-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .product-card {
+    display: flex;
+    align-items: flex-start;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%; /* Полная ширина карточки */
+    max-width: 1200px; /* Максимальная ширина карточек */
+    margin: 0 auto; /* Центрирование карточек */
+    padding: 20px;
+    position: relative;
+  }
+  
+  .product-image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .product-info {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 320px); /* Оставшееся пространство */
+  }
+  
+  .product-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .product-category {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .product-description {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .product-price {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  
+  .remove-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .remove-button:hover {
+    background-color: #cc0000;
+  }

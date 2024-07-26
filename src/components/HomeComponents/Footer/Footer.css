@@ -21,6 +21,8 @@
 }
 
 .footer .container {
+    
+    margin-top: 50px;
     padding-bottom: 100px; /* Зменшено відступ знизу */
     display: flex;
     flex-wrap: wrap;

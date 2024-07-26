@@ -5,6 +5,8 @@ import Call from "../assets/Call.svg";
 import Twitter from "../assets/twitter.svg";
 import Facebook from "../assets/facebook.svg";
 import Instagram from "../assets/instagram.svg";
+import Delete_Icon from '../assets/deleteIcon.svg'
+import Cart from '../assets/cart.svg'
 import ProjectPhoto_1 from "../assets/project-photo1.png";
 import ProjectPhoto_2 from "../assets/project-photo2.png";
 import ProjectPhoto_3 from "../assets/project-photo3.png";
@@ -22,7 +24,7 @@ import ClientLogo_3 from "../assets/client-logo03.png";
 import ClientLogo_4 from "../assets/client-logo04.png";
 import ClientLogo_5 from "../assets/client-logo05.png";
 import Error_Page from "../assets/404Photo.jpg";
-import Heart from "../assets/heart.svg";
+import Heart from '../assets/heart-svgrepo-com (2).svg'
 import ProjCard from "../assets/projCard.png";
 import ProjCard2 from "../assets/projCard2.jpg";
 import Modern1 from "../assets/modern1.jpg";
@@ -70,12 +72,15 @@ import Living_Area_Minimalizm_1 from '../assets/LivingAreaMinimalizm1.webp'
 import Living_Area_Minimalizm_2 from '../assets/LivingAreaMinimalizm2.jpg'
 import Living_Area_Minimalizm_3 from '../assets/LivingAreaMinimalizm3.jpg'
 
+import EditIcon from '../assets/edit-icon.svg'
+
+
 
 
 export {
-    Logo, SearchIcon, Header_banner, Twitter, Facebook, Instagram, Call,
+    Logo, SearchIcon, Header_banner, Twitter, Facebook, Instagram, Call, Delete_Icon, Cart, Heart, EditIcon,
     ProjectPhoto_1, ProjectPhoto_2, ProjectPhoto_3, ProjectPhoto_4, PeopleAvatar, In,  Favicon, Design_1, Design_2, Design,
-    ContactPhoto, ClientLogo_1, ClientLogo_2, ClientLogo_3, ClientLogo_4, ClientLogo_5, Error_Page, Heart, 
+    ContactPhoto, ClientLogo_1, ClientLogo_2, ClientLogo_3, ClientLogo_4, ClientLogo_5, Error_Page,
     Modern1, Modern2, Modern3, Skandinavia1, Skandinavia2, Skandinavia3, Skandinavia4, Skandinavia5, Vintazh1, Vintazh2, Vintazh3, Vintazh4,
     Bedroom,  ProjCard,  ProjCard2, Franch_Bedroom_1, Franch_Bedroom_2, Franch_Bedroom_3, Industrial_Bedroom_1, Industrial_Bedroom_2, Industrial_Bedroom_3,
     Classic_Bedroom_1, Classic_Bedroom_2, Classic_Bedroom_3, Boho_Bedroom_1, Boho_Bedroom_2, Boho_Bedroom_3, Kantry_1, Kantry_2, Kantry_3,

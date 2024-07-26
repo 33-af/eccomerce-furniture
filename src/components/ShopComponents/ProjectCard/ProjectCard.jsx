@@ -1,6 +1,7 @@
 import './ProjectCard.css';
-
 import { FaRegHeart } from "react-icons/fa";
+import { FiShoppingCart } from "react-icons/fi";
+
 
 const ProjectCard = ({ image, title, category, price, description }) => (
   <div className="projects__card anim-items">
@@ -14,7 +15,8 @@ const ProjectCard = ({ image, title, category, price, description }) => (
       <div className="price">{price}$</div>
       <button className="favoritesButton">
         <FaRegHeart className="heart" />
-      </button>
+        <FiShoppingCart className="cart" />
+    </button>
     </div>
   </div>
 );
