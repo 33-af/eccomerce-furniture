@@ -8,6 +8,7 @@ const ShopFilter = ({ onFilterChange }) => {
     setActiveFilter(filter);
     if (onFilterChange) {
       onFilterChange(filter);
+      alert('good')
     }
   };
 
