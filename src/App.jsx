@@ -7,10 +7,10 @@ import Footer from './components/HomeComponents/Footer/Footer';
 import './App.css'
 import Login from './components/RegisterComponents/Login/Login';
 import SignIn from './components/RegisterComponents/SignIn/SignIn'
-// import FavoriteCart from './pages/FavoriteCart/FavoriteCart';
 import ShopCart from './pages/ShopCart/ShopCart';
 import FavoriteCart from './pages/FavoriteCart/FavoriteCart';
 import Profile from './pages/Profile/Profile';
+import ProductDetail from './pages/ProductDetail/ProductDetail';
 
 
 
@@ -27,11 +27,12 @@ const App = () => {
         <Route path="/shopCart" element={<ShopCart />} />
         <Route path="/favoriteCart" element={<FavoriteCart />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/product/:id" element={<ProductDetail />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />
     </Router>
   );
-}
+};
 
 export default App;

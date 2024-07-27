@@ -26,7 +26,9 @@ import ClientLogo_5 from "../assets/client-logo05.png";
 import Error_Page from "../assets/404Photo.jpg";
 import Heart from '../assets/heart-svgrepo-com (2).svg'
 import ProjCard from "../assets/projCard.png";
-import ProjCard2 from "../assets/projCard2.jpg";
+import ProjCard2 from "../assets/projCard2.jpg"
+import ProjCard3 from "../assets/minimalBedroom3.webp"
+// src/assets/index.js
 import Modern1 from "../assets/modern1.jpg";
 import Modern2 from "../assets/modern2.jpg";
 import Modern3 from "../assets/modern3.jpg";
@@ -39,50 +41,88 @@ import Vintazh1 from "../assets/vintazh1.webp";
 import Vintazh2 from "../assets/vintazh2.jpg";
 import Vintazh3 from "../assets/vintazh3.avif";
 import Vintazh4 from "../assets/vintazh4.jpg";
-import Bedroom from '../assets/Image.png'
-import Franch_Bedroom_1 from '../assets/FranchBedroom1.jpg'
-import Franch_Bedroom_2 from '../assets/FranchBedroom2.jpg'
-import Franch_Bedroom_3 from '../assets/FranchBedroom3.jpg'
-import Industrial_Bedroom_1 from '../assets/IndustrialBedroom.jpg'
-import Industrial_Bedroom_2 from '../assets/IndustrialBedroom2.avif'
-import Industrial_Bedroom_3 from '../assets/IndustrialBedroom3.jpg'
-import Classic_Bedroom_1 from '../assets/classicBedroom1.jpg'
-import Classic_Bedroom_2 from '../assets/classicBedroom2.jpg'
-import Classic_Bedroom_3 from '../assets/classicBedroom3.jpg'
-import Boho_Bedroom_1 from '../assets/bohoBedroom1.avif'
-import Boho_Bedroom_2 from '../assets/bohoBedroom2.jpg'
-import Boho_Bedroom_3 from '../assets/bohoBedroom3.avif'
+import Franch_Bedroom_1 from "../assets/franchBedroom1.jpg";
+import Franch_Bedroom_2 from "../assets/franchBedroom2.jpg";
+import Franch_Bedroom_3 from "../assets/franchBedroom1.jpg";
+import Industrial_Bedroom_1 from "../assets/IndustrialBedroom.jpg";
+import Industrial_Bedroom_2 from "../assets/IndustrialBedroom2.avif";
+import Industrial_Bedroom_3 from "../assets/IndustrialBedroom3.jpg";
+import Classic_Bedroom_1 from "../assets/classicBedroom1.jpg";
+import Classic_Bedroom_2 from "../assets/classicBedroom2.jpg";
+import Classic_Bedroom_3 from "../assets/classicBedroom3.jpg";
+import Boho_Bedroom_1 from "../assets/bohoBedroom1.avif";
+import Boho_Bedroom_2 from "../assets/bohoBedroom2.jpg";
+import Boho_Bedroom_3 from "../assets/bohoBedroom3.avif";
+import Kantry_1 from "../assets/kuntry1.jpg";
+import Kantry_2 from "../assets/kuntry2.jpg";
+import Kantry_3 from "../assets/kuntry3.jpg";
+import Modern_Kitchan_1 from "../assets/modernKitchan1.jpg";
+import Modern_Kitchan_2 from "../assets/modernKitchan2.jpg";
+import Modern_Kitchan_3 from "../assets/modernKitchan3.jpg";
+import Rustilniy_1 from "../assets/rustilniy1.jpg";
+import Rustilniy_2 from "../assets/rustilniy2.jpg";
+import Rustilniy_3 from "../assets/rustilniy3.jpg";
+import Living_Area_1 from "../assets/livingArea1.jpg";
+import Living_Area_2 from "../assets/livingArea2.jpg";
+import Living_Area_3 from "../assets/livingArea3.jpg";
+import Living_Area_Classic_1 from "../assets/livingAreaClassic1.jpg";
+import Living_Area_Classic_2 from "../assets/livingAreaClassic2.jpg";
+import Living_Area_Classic_3 from "../assets/livingAreaClassic3.jpg";
+import Living_Area_Minimalizm_1 from "../assets/livingAreaMinimalizm1.webp";
+import Living_Area_Minimalizm_2 from "../assets/livingAreaMinimalizm2.jpg";
+import Living_Area_Minimalizm_3 from "../assets/livingAreaMinimalizm3.jpg";
+import SearchIcon2 from "../assets/cdaSearch.png";
 
-import Kantry_1 from '../assets/Kuntry1.jpg'
-import Kantry_2 from '../assets/Kuntry2.jpg'
-import Kantry_3 from '../assets/Kuntry3.jpg'
-import Modern_Kitchan_1 from '../assets/ModernKitchan1.jpg'
-import Modern_Kitchan_2 from '../assets/ModernKitchan2.jpg'
-import Modern_Kitchan_3 from '../assets/ModernKitchan3.jpg'
-import Rustilniy_1 from '../assets/Rustilniy1.jpg'
-import Rustilniy_2 from '../assets/Rustilniy2.jpg'
-import Rustilniy_3 from '../assets/Rustilniy3.jpg'
-import Living_Area_1 from '../assets/LivingArea1.jpg'
-import Living_Area_2 from '../assets/LivingArea2.jpg'
-import Living_Area_3 from '../assets/LivingArea3.jpg'
-import Living_Area_Classic_1 from '../assets/LivingAreaClassic1.jpg'
-import Living_Area_Classic_2 from '../assets/LivingAreaClassic2.jpg'
-import Living_Area_Classic_3 from '../assets/LivingAreaClassic3.jpg'
-import Living_Area_Minimalizm_1 from '../assets/LivingAreaMinimalizm1.webp'
-import Living_Area_Minimalizm_2 from '../assets/LivingAreaMinimalizm2.jpg'
-import Living_Area_Minimalizm_3 from '../assets/LivingAreaMinimalizm3.jpg'
-
+import Banner_Product_Category from "../assets/bannerPhoto.jpg";
 import EditIcon from '../assets/edit-icon.svg'
 
 
 
 
 export {
-    Logo, SearchIcon, Header_banner, Twitter, Facebook, Instagram, Call, Delete_Icon, Cart, Heart, EditIcon,
-    ProjectPhoto_1, ProjectPhoto_2, ProjectPhoto_3, ProjectPhoto_4, PeopleAvatar, In,  Favicon, Design_1, Design_2, Design,
-    ContactPhoto, ClientLogo_1, ClientLogo_2, ClientLogo_3, ClientLogo_4, ClientLogo_5, Error_Page,
-    Modern1, Modern2, Modern3, Skandinavia1, Skandinavia2, Skandinavia3, Skandinavia4, Skandinavia5, Vintazh1, Vintazh2, Vintazh3, Vintazh4,
-    Bedroom,  ProjCard,  ProjCard2, Franch_Bedroom_1, Franch_Bedroom_2, Franch_Bedroom_3, Industrial_Bedroom_1, Industrial_Bedroom_2, Industrial_Bedroom_3,
-    Classic_Bedroom_1, Classic_Bedroom_2, Classic_Bedroom_3, Boho_Bedroom_1, Boho_Bedroom_2, Boho_Bedroom_3, Kantry_1, Kantry_2, Kantry_3,
-    Modern_Kitchan_1, Modern_Kitchan_2, Modern_Kitchan_3, Rustilniy_1, Rustilniy_2, Rustilniy_3, Living_Area_1, Living_Area_2, Living_Area_3, Living_Area_Classic_1, Living_Area_Classic_2, Living_Area_Classic_3, Living_Area_Minimalizm_1, Living_Area_Minimalizm_2, Living_Area_Minimalizm_3
+    Logo, SearchIcon, Header_banner, Twitter, Facebook, Instagram, Call, Delete_Icon, Cart, Heart, EditIcon, ProjCard3,
+    ProjectPhoto_1, ProjectPhoto_2, ProjectPhoto_3, ProjectPhoto_4, PeopleAvatar, In,  Favicon, Design_1, Design_2, Design, ProjCard,  ProjCard2,
+    ContactPhoto, ClientLogo_1, ClientLogo_2, ClientLogo_3, ClientLogo_4, ClientLogo_5, Error_Page, Modern1, SearchIcon2,
+    Modern2,
+    Modern3,
+    Skandinavia1,
+    Skandinavia2,
+    Skandinavia3,
+    Skandinavia4,
+    Skandinavia5,
+    Vintazh1,
+    Vintazh2,
+    Vintazh3,
+    Vintazh4,
+    Franch_Bedroom_1,
+    Franch_Bedroom_2,
+    Franch_Bedroom_3,
+    Industrial_Bedroom_1,
+    Industrial_Bedroom_2,
+    Industrial_Bedroom_3,
+    Classic_Bedroom_1,
+    Classic_Bedroom_2,
+    Classic_Bedroom_3,
+    Boho_Bedroom_1,
+    Boho_Bedroom_2,
+    Boho_Bedroom_3,
+    Kantry_1,
+    Kantry_2,
+    Kantry_3,
+    Modern_Kitchan_1,
+    Modern_Kitchan_2,
+    Modern_Kitchan_3,
+    Rustilniy_1,
+    Rustilniy_2,
+    Rustilniy_3,
+    Living_Area_1,
+    Living_Area_2,
+    Living_Area_3,
+    Living_Area_Classic_1,
+    Living_Area_Classic_2,
+    Living_Area_Classic_3,
+    Living_Area_Minimalizm_1,
+    Living_Area_Minimalizm_2,
+    Living_Area_Minimalizm_3,
+    Banner_Product_Category
 };

@@ -1,0 +1,78 @@
+.topContent {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+
+.left {
+    padding: 55px 85px;
+    background-color: #F4F0EC;
+    border-radius: 70px;
+    width: 500px;
+    display: flex;
+    gap: 10px;
+}
+
+.right {
+    flex: 1; /* This will make the right column take the remaining space */
+    margin-left: 130px; /* Separates the left and right columns */
+}
+
+.infoItem {
+    font-size: 22px;
+    color: #4D5053;
+}
+
+.infoItem ~ .infoItem {
+    margin-top: 15px;
+}
+
+.infoLabels, .infoValues {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoLabels {
+    flex: 1; /* Ensures that the labels take up equal space as the values */
+}
+
+.infoValues {
+    flex: 1; /* Ensures that the values take up equal space as the labels */
+}
+
+.infoLabel {
+    font-weight: 700;
+    font-size: 22px;
+    display: inline-block;
+    white-space: nowrap;
+    
+}
+
+/* .infoValue {
+    margin-left: 20px;
+} */
+
+.description {
+    font-size: 22px;
+    margin-top: 11px;
+}
+
+.indent {
+    margin: 25px 0;
+}
+
+.bannerPhoto {
+    width: 100%;
+}
+
+.title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.productImage {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 30px;
+}
