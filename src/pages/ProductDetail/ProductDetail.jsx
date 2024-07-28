@@ -16,7 +16,7 @@ const ProductDetail = () => {
         const fetchProductById = async () => {
             try {
                 console.log(id); // Logging id
-                const response =  await axios.get(`http://localhost:3035/productDetail/${id}`);
+                const response =  await axios.get(`http://localhost:3034/productDetail/${id}`);
                 setProduct(response.data);
             } catch (error) {
                 console.error('Error fetching product:', error);
