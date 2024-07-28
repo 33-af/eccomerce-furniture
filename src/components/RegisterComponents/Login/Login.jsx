@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useForm } from "react-hook-form";
-// import './Login.css'
+
 
 const Login = () => {
     const { register, handleSubmit, formState: { errors } } = useForm();

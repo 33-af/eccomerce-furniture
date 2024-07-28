@@ -1,49 +1,66 @@
-
-// import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './FavoriteCart.css'
-// import projects from '../../Db/Db';
+
 
 const FavoriteCart = () => {
-    // const [products, setProducts] = useState(projects);
-
-    // const handleRemove = (id) => {
-    //     setProducts(products.filter((product) => product.id !== id));
-    // };
-  
-    // const handleClear = () => {
-    //     setProducts([]);
-    // };
+    const [favorites, setFavorites] = useState([]);
+    const navigate = useNavigate();
    
+ 
+  
+    useEffect(() => {
+      const savedFavorites = JSON.parse(localStorage.getItem('favorites')) || [];
+      setFavorites(savedFavorites);
+    }, []);
+  
+    const handleRemove = (id) => {
+      const updatedFavorites = favorites.filter((favorite) => favorite.id !== id);
+      setFavorites(updatedFavorites);
+      localStorage.setItem('favorites', JSON.stringify(updatedFavorites));
+    };
+  
+    const handleClear = () => {
+      setFavorites([]);
+      localStorage.removeItem('favorites');
+    };
+ 
+  
+    if (!favorites) return <div>Loading.....</div>;
   
     return (
-        <div className="shop-cart">
-            {/* {products.length === 0 ? ( */}
-                <div className="empty-message">No items have been added to favorites</div>
-            {/* ) : ( */}
-                <>
-                <div className="button-wrapper">
-                  {/* вернуться на ту странциу с которой пришёл */}
-                    <button className="return-button">Go Back</button>
-                    <button className="clear-button">Delete</button>
-                    </div>
-                    <div className="product-grid">
-                        {/* {products.map((product) => (
-                            <div className="product-card" key={product.id}>
-                                <img className="product-image" src={product.image} alt={product.title} />
-                                <div className="product-info">
-                                    <h2 className="product-title">{product.title}</h2>
-                                    <p className="product-category">{product.category}</p>
-                                    <p className="product-description">{product.description}</p>
-                                    <div className="product-price">{product.price}$</div>
-                                </div>
-                                <button className="remove-button" onClick={() => handleRemove(product.id)}>Удалить</button>
-                            </div>
-                        ))} */}
-                    </div>
-                </>
-            {/* )} */}
-        </div>
+      <div className="shop-cart">
+        <button className="return-button" onClick={() => navigate(-1)}>Go Back</button>
+        {favorites.length === 0 ? (
+          <div className="empty-message">No items have been added to favorites</div>
+        ) : (
+          <>
+            <div className="button-wrapper">
+              <button className="clear-button" onClick={handleClear}>Delete</button>
+            </div>
+            <div className="product-grid">
+              {favorites.map((favorite) => (
+                <div className="product-card" key={favorite.id}>
+                <img src={favorite.image} alt={favorite.title} className="product-image" />
+                  <div className="product-info">
+                    <h2 className="product-title">{favorite.title}</h2>
+                    <p className="product-category">{favorite.category}</p>
+                    <p className="product-description">{favorite.description}</p>
+                    <div className="product-price">{favorite.price}$</div>
+                  </div>
+                  <button
+                    className="remove-button"
+                    onClick={() => handleRemove(favorite.id)}
+                  >
+                    Удалить
+                  </button>
+                </div>
+              ))}
+            </div>
+          </>
+        )}
+      </div>
     );
   };
-
-export default FavoriteCart
+  
+  export default FavoriteCart;

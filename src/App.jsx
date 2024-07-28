@@ -11,11 +11,13 @@ import ShopCart from './pages/ShopCart/ShopCart';
 import FavoriteCart from './pages/FavoriteCart/FavoriteCart';
 import Profile from './pages/Profile/Profile';
 import ProductDetail from './pages/ProductDetail/ProductDetail';
-
+// import ProtectedRoute from './protectedRoute'
 
 
 
 const App = () => {
+  // const isAuthenticated = false;
+
   return (
     <Router>
       <Header />
@@ -24,7 +26,15 @@ const App = () => {
         <Route path="/shop" element={<Shop />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signIn" element={<SignIn />} />
-        <Route path="/shopCart" element={<ShopCart />} />
+        <Route path="/shopCart" element={  <ShopCart />} />
+       
+           
+        
+            {/* <Route path="/shopCart" element={
+              <ProtectedRoute isAuthenticated={isAuthenticated}>
+                <ShopCart />
+              </ProtectedRoute>
+            } />  */}
         <Route path="/favoriteCart" element={<FavoriteCart />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/product/:id" element={<ProductDetail />} />
@@ -34,5 +44,8 @@ const App = () => {
     </Router>
   );
 };
+
+
+
 
 export default App;

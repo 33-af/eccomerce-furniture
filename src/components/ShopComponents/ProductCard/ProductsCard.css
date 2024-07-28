@@ -1,3 +1,5 @@
+
+
 .projects__card__content {
     margin-top: 25px;
     padding: 20px;
@@ -58,6 +60,11 @@
 .cart {
     filter: invert(50%); /* Set default filter here */
 }
+
+.cart.disabled {
+    opacity: 0.5;
+    pointer-events: none; /* Optional: prevents clicking */
+  }
 
 .heart::before {
     content: '';

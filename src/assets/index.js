@@ -72,6 +72,9 @@ import Living_Area_Minimalizm_1 from "../assets/livingAreaMinimalizm1.webp";
 import Living_Area_Minimalizm_2 from "../assets/livingAreaMinimalizm2.jpg";
 import Living_Area_Minimalizm_3 from "../assets/livingAreaMinimalizm3.jpg";
 import SearchIcon2 from "../assets/cdaSearch.png";
+import Succesfull from "../assets/check-circle.svg"
+import Warning from "../assets/warning.png"
+import WarningRed from "../assets/warningRed.png"
 
 import Banner_Product_Category from "../assets/bannerPhoto.jpg";
 import EditIcon from '../assets/edit-icon.svg'
@@ -80,10 +83,10 @@ import EditIcon from '../assets/edit-icon.svg'
 
 
 export {
-    Logo, SearchIcon, Header_banner, Twitter, Facebook, Instagram, Call, Delete_Icon, Cart, Heart, EditIcon, ProjCard3,
+    Logo, SearchIcon, Header_banner, Twitter, Facebook, Instagram, Call, Delete_Icon, Cart, Heart, EditIcon, ProjCard3,Succesfull,
     ProjectPhoto_1, ProjectPhoto_2, ProjectPhoto_3, ProjectPhoto_4, PeopleAvatar, In,  Favicon, Design_1, Design_2, Design, ProjCard,  ProjCard2,
     ContactPhoto, ClientLogo_1, ClientLogo_2, ClientLogo_3, ClientLogo_4, ClientLogo_5, Error_Page, Modern1, SearchIcon2,
-    Modern2,
+    Modern2, Warning, WarningRed,
     Modern3,
     Skandinavia1,
     Skandinavia2,
