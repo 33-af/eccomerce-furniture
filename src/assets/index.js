@@ -28,7 +28,6 @@ import Heart from '../assets/heart-svgrepo-com (2).svg';
 import ProjCard from "../assets/projCard.png";
 import ProjCard2 from "../assets/projCard2.jpg";
 import ProjCard3 from "../assets/minimalBedroom3.webp";
-// src/assets/index.js
 import Modern1 from "../assets/modern1.jpg";
 import Modern2 from "../assets/modern2.jpg";
 import Modern3 from "../assets/modern3.jpg";
