@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import {  useState } from 'react';
 import './ProductsCard.css';
 import { FaRegHeart } from "react-icons/fa";
 import { FiShoppingCart } from "react-icons/fi";
@@ -6,25 +6,17 @@ import { Link } from 'react-router-dom';
 import AddToCart from '../Toast/AddToCart/AddToCart';
 import Exists from '../Toast/Exists/Exists';
 import { Succesfull, Warning } from '../../../assets';
+import { useCart } from '../../../context/useContext';
 
 
 
 
 const ProductsCard = ({ id, image, title, category, price, description }) => {
   const [favorites, setFavorites] = useState([]);
-  const [shopCart, setShopCart] = useState([]);
   const [notificationType, setNotificationType] = useState(null);
   const [isCartDisabled, setIsCartDisabled] = useState(false); // New state for disabling the cart button
 
-  useEffect(() => {
-    const savedFavorites = JSON.parse(localStorage.getItem('favorites')) || [];
-    setFavorites(savedFavorites);
-  }, []);
-
-  useEffect(() => {
-    const savedShopCart = JSON.parse(localStorage.getItem('shopCart')) || [];
-    setShopCart(savedShopCart);
-  }, []);
+  const { cartItems, addToCart } = useCart(); // Use cart context
 
   const addToFavorites = () => {
     const newFavorite = { id, image, title, category, price, description };
@@ -42,32 +34,21 @@ const ProductsCard = ({ id, image, title, category, price, description }) => {
 
   const addShopCart = () => {
     if (isCartDisabled) return; // Prevent action if button is disabled
-  
-    const newShopCart = { id, image, title, category, price, description };
-  
-    // Use functional updates to ensure the latest state
-    setShopCart(prevShopCart => {
-      const isShopCartExists = prevShopCart.some(item => item.id === id);
-      
-      if (!isShopCartExists && prevShopCart.length < 5) {
-        const updatedShopCart = [...prevShopCart, newShopCart];
-        localStorage.setItem('shopCart', JSON.stringify(updatedShopCart));
-        handleAddToCart('added');
-        return updatedShopCart;
-      } else if (isShopCartExists) {
-        handleAddToCart('exists');
-        return prevShopCart; // No change if item already exists
-      } else if (prevShopCart.length >= 5) {
-        alert('Можно добавить до 5 товаров в корзину.');
-        return prevShopCart; // No change if cart is full
-      }
-      
-      return prevShopCart; // Default return if none of the conditions are met
-    });
-  
+
+    const newShopCartItem = { id, image, title, category, price, description };
+
+    if (cartItems.some(item => item.id === id)) {
+      handleAddToCart('exists');
+    } else if (cartItems.length < 5) {
+      addToCart(newShopCartItem);
+      handleAddToCart('added');
+    } else {
+      alert('Можно добавить до 5 товаров в корзину.');
+    }
+
     // Disable the button
     setIsCartDisabled(true);
-  
+
     // Re-enable the button after 5 seconds
     setTimeout(() => {
       setIsCartDisabled(false);

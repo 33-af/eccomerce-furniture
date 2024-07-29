@@ -1,841 +1,948 @@
 {
-    "productDetail": [
-        {
-            "id": "1",
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": "A stylish modern bathroom with contemporary fixtures.",
-            "price": 5000
-
-          },
-          {
-            "id": "2",
-            "image": "Modern2",
+  "productDetail": [
+    {
+      "id": "1",
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Modern1",
+      "title": "Modern Bathroom",
+      "category": "Bathroom",
+      "description": "A stylish modern bathroom with contemporary fixtures. This bathroom features sleek lines, high-quality materials, and an elegant design that maximizes space and comfort.",
+      "price": 5000
+    },
+    {
+      "id": "2",
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Modern2",
+      "title": "Modern Bathroom",
+      "category": "Bathroom",
+      "description": "A stylish modern bathroom with contemporary fixtures. This bathroom features sleek lines, high-quality materials, and an elegant design that maximizes space and comfort.",
+      "price": 7000
+    },
+    {
+      "id": 3,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Modern3",
+      "title": "Modern Bathroom",
+      "category": "Bathroom",
+      "description": "A stylish modern bathroom with contemporary fixtures. This bathroom features sleek lines, high-quality materials, and an elegant design that maximizes space and comfort.",
+      "price": 5500
+    },
+    {
+      "id": 4,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Skandinavia1",
+      "title": "Scandinavian Bathroom",
+      "category": "Bathroom",
+      "description": [
+        "Experience the serene elegance of our minimalist",
+        "bathroom design. Sleek, clean lines define",
+        "the space, with a focus on functionality and",
+        "subtle luxury. The crisp white tiles and modern",
+        "fixtures create a calming atmosphere, perfect",
+        "",
+        "for unwinding after a long day. The floating",
+        "vanity and frameless glass shower add to the",
+        "uncluttered aesthetic, ensuring that every element",
+        "serves both form and function."
+      ],
+      "price": 4000
+    },
+    {
+      "id": 5,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Skandinavia2",
+      "title": "Scandinavian Bathroom",
+      "category": "Bathroom",
+      "description": [
+        "Experience the serene elegance of our minimalist",
+        "bathroom design. Sleek, clean lines define",
+        "the space, with a focus on functionality and",
+        "subtle luxury. The crisp white tiles and modern",
+        "fixtures create a calming atmosphere, perfect",
+        "",
+        "for unwinding after a long day. The floating",
+        "vanity and frameless glass shower add to the",
+        "uncluttered aesthetic, ensuring that every element",
+        "serves both form and function."
+      ],
+      "price": 3500
+    },
+    {
+      "id": 6,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Skandinavia3",
+      "title": "Scandinavian Bathroom",
+      "category": "Bathroom",
+      "description": [
+        "Experience the serene elegance of our minimalist",
+        "bathroom design. Sleek, clean lines define",
+        "the space, with a focus on functionality and",
+        "subtle luxury. The crisp white tiles and modern",
+        "fixtures create a calming atmosphere, perfect",
+        "",
+        "for unwinding after a long day. The floating",
+        "vanity and frameless glass shower add to the",
+        "uncluttered aesthetic, ensuring that every element",
+        "serves both form and function."
+      ],
+      "price": 3999
+    },
+    {
+      "id": 7,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Skandinavia4",
+      "title": "Scandinavian Bathroom",
+      "category": "Bathroom",
+      "description": [
+        "Experience the serene elegance of our minimalist",
+        "bathroom design. Sleek, clean lines define",
+        "the space, with a focus on functionality and",
+        "subtle luxury. The crisp white tiles and modern",
+        "fixtures create a calming atmosphere, perfect",
+        "",
+        "for unwinding after a long day. The floating",
+        "vanity and frameless glass shower add to the",
+        "uncluttered aesthetic, ensuring that every element",
+        "serves both form and function."
+      ],
+      "price": 3700
+    },
+    {
+      "id": 8,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Skandinavia5",
+      "title": "Scandinavian Bathroom",
+      "category": "Bathroom",
+      "description": [
+        "Experience the serene elegance of our minimalist",
+        "bathroom design. Sleek, clean lines define",
+        "the space, with a focus on functionality and",
+        "subtle luxury. The crisp white tiles and modern",
+        "fixtures create a calming atmosphere, perfect",
+        "",
+        "for unwinding after a long day. The floating",
+        "vanity and frameless glass shower add to the",
+        "uncluttered aesthetic, ensuring that every element",
+        "serves both form and function."
+      ],
+      "price": 4100
+    },
+    {
+      "id": 9,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Vintazh1",
+      "title": "Vintage Bathroom",
+      "category": "Bathroom",
+      "description": [
+        "Experience the serene elegance of our minimalist",
+        "bathroom design. Sleek, clean lines define",
+        "the space, with a focus on functionality and",
+        "subtle luxury. The crisp white tiles and modern",
+        "fixtures create a calming atmosphere, perfect",
+        "",
+        "for unwinding after a long day. The floating",
+        "vanity and frameless glass shower add to the",
+        "uncluttered aesthetic, ensuring that every element",
+        "serves both form and function."
+      ],
+      "price": 1000
+    },
+    {
+      "id": 10,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Vintazh2",
+      "title": "Vintage Bathroom",
+      "category": "Bathroom",
+      "description": [
+        "Experience the serene elegance of our minimalist",
+        "bathroom design. Sleek, clean lines define",
+        "the space, with a focus on functionality and",
+        "subtle luxury. The crisp white tiles and modern",
+        "fixtures create a calming atmosphere, perfect",
+        "",
+        "for unwinding after a long day. The floating",
+        "vanity and frameless glass shower add to the",
+        "uncluttered aesthetic, ensuring that every element",
+        "serves both form and function."
+      ],
+      "price": 1500
+    },
+    {
+      "id": 11,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Vintazh3",
+      "title": "Vintage Bathroom",
+      "category": "Bathroom",
+      "description": [
+        "Experience the serene elegance of our minimalist",
+        "bathroom design. Sleek, clean lines define",
+        "the space, with a focus on functionality and",
+        "subtle luxury. The crisp white tiles and modern",
+        "fixtures create a calming atmosphere, perfect",
+        "",
+        "for unwinding after a long day. The floating",
+        "vanity and frameless glass shower add to the",
+        "uncluttered aesthetic, ensuring that every element",
+        "serves both form and function."
+      ],
+      "price": 1200
+    },
+    {
+      "id": 12,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Vintazh4",
+      "title": "Vintage Bathroom",
+      "category": "Bathroom",
+      "description": [
+        "Experience the serene elegance of our minimalist",
+        "bathroom design. Sleek, clean lines define",
+        "the space, with a focus on functionality and",
+        "subtle luxury. The crisp white tiles and modern",
+        "fixtures create a calming atmosphere, perfect",
+        "",
+        "for unwinding after a long day. The floating",
+        "vanity and frameless glass shower add to the",
+        "uncluttered aesthetic, ensuring that every element",
+        "serves both form and function."
+      ],
+      "price": 999
+    },
+    {
+      "id": 13,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Franch_Bedroom_1",
+      "title": "French Provence Bedroom",
+      "category": "Bedroom",
+      "description": [
+        "Step into a world of timeless charm with our French Provence Bedroom design.",
+        "This space embraces the romantic elegance of Provence with soft, muted colors and",
+        "classic furnishings that evoke a sense of history and grace. The room is adorned with",
+        "antique-inspired details, including ornate bed frames, vintage textiles, and delicate",
+        "woodwork, creating a warm and inviting atmosphere.",
+        "",
+        "Rustic touches blend seamlessly with modern comforts, providing a perfect retreat",
+        "that balances sophistication and coziness. Enjoy the serene ambiance of this",
+        "beautifully designed bedroom, where every element contributes to a relaxing and",
+        "charming living space."
+      ],
+      "price": 4200
+    },
+    {
+      "id": 14,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Franch_Bedroom_2",
+      "title": "French Provence Bedroom",
+      "category": "Bedroom",
+      "description": [
+        "Step into a world of timeless charm with our French Provence Bedroom design.",
+        "This space embraces the romantic elegance of Provence with soft, muted colors and",
+        "classic furnishings that evoke a sense of history and grace. The room is adorned with",
+        "antique-inspired details, including ornate bed frames, vintage textiles, and delicate",
+        "woodwork, creating a warm and inviting atmosphere.",
+        "",
+        "Rustic touches blend seamlessly with modern comforts, providing a perfect retreat",
+        "that balances sophistication and coziness. Enjoy the serene ambiance of this",
+        "beautifully designed bedroom, where every element contributes to a relaxing and",
+        "charming living space."
+      ],
+      "price": 5000
+    },
+    {
+      "id": 15,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Franch_Bedroom_3",
+      "title": "French Provence Bedroom",
+      "category": "Bedroom",
+      "description": [
+        "Step into a world of timeless charm with our French Provence Bedroom design.",
+        "This space embraces the romantic elegance of Provence with soft, muted colors and",
+        "classic furnishings that evoke a sense of history and grace. The room is adorned with",
+        "antique-inspired details, including ornate bed frames, vintage textiles, and delicate",
+        "woodwork, creating a warm and inviting atmosphere.",
+        "",
+        "Rustic touches blend seamlessly with modern comforts, providing a perfect retreat",
+        "that balances sophistication and coziness. Enjoy the serene ambiance of this",
+        "beautifully designed bedroom, where every element contributes to a relaxing and",
+        "charming living space."
+      ],
+      "price": 3333
+    },
+    {
+      "id": 16,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Industrial_Bedroom_1",
+      "title": "Industrial Bedroom",
+      "category": "Bedroom",
+      "description": [
+        "Discover the rugged sophistication of our Industrial Bedroom design.",
+        "Characterized by exposed brick walls, metal accents, and reclaimed wood,",
+        "this design creates a bold and stylish urban retreat. The combination of",
+        "industrial elements and modern comforts results in a space that is both functional",
+        "and aesthetically striking.",
+        "",
+        "Industrial-inspired lighting fixtures and minimalist furniture enhance the raw",
+        "appeal, while cozy textiles and warm tones add an inviting touch. This bedroom",
+        "perfectly balances the stark beauty of industrial design with the need for a",
+        "comfortable and stylish living space."
+      ],
+      "price": 2000
+    },
+    {
+      "id": 17,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Industrial_Bedroom_2",
+      "title": "Industrial Bedroom",
+      "category": "Bedroom",
+      "description": [
+        "Discover the rugged sophistication of our Industrial Bedroom design.",
+        "Characterized by exposed brick walls, metal accents, and reclaimed wood,",
+        "this design creates a bold and stylish urban retreat. The combination of",
+        "industrial elements and modern comforts results in a space that is both functional",
+        "and aesthetically striking.",
+        "",
+        "Industrial-inspired lighting fixtures and minimalist furniture enhance the raw",
+        "appeal, while cozy textiles and warm tones add an inviting touch. This bedroom",
+        "perfectly balances the stark beauty of industrial design with the need for a",
+        "comfortable and stylish living space."
+      ],
+      "price": 3500
+    },
+    {
+      "id": 18,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Industrial_Bedroom_3",
+      "title": "Industrial Bedroom",
+      "description": [
+        "Discover the rugged sophistication of our Industrial Bedroom design.",
+        "Characterized by exposed brick walls, metal accents, and reclaimed wood,",
+        "this design creates a bold and stylish urban retreat. The combination of",
+        "industrial elements and modern comforts results in a space that is both functional",
+        "and aesthetically striking.",
+        "",
+        "Industrial-inspired lighting fixtures and minimalist furniture enhance the raw",
+        "appeal, while cozy textiles and warm tones add an inviting touch. This bedroom",
+        "perfectly balances the stark beauty of industrial design with the need for a",
+        "comfortable and stylish living space."
+      ],
+      "price": 2100
+    },
+    {
+      "id": 19,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Classic_Bedroom_1",
+      "title": "Classic Bedroom",
+      "category": "Bedroom",
+      "description": [
+        "Indulge in timeless elegance with our Classic Bedroom design.",
+        "This luxurious bedroom features rich wood furnishings, elegant drapery, and",
+        "sophisticated details that evoke a sense of grandeur. The use of plush fabrics,",
+        "ornate moldings, and refined color palettes creates a serene and opulent retreat.",
+        "",
+        "The classic design elements are complemented by modern comforts, ensuring",
+        "a perfect balance of tradition and convenience. Enjoy a restful and stylish",
+        "environment where every detail is thoughtfully curated to enhance your living experience."
+      ],
+      "price": 10000
+    },
+    {
+      "id": 20,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Classic_Bedroom_2",
+      "title": "Classic Bedroom",
+      "category": "Bedroom",
+      "description": [
+        "Indulge in timeless elegance with our Classic Bedroom design.",
+        "This luxurious bedroom features rich wood furnishings, elegant drapery, and",
+        "sophisticated details that evoke a sense of grandeur. The use of plush fabrics,",
+        "ornate moldings, and refined color palettes creates a serene and opulent retreat.",
+        "",
+        "The classic design elements are complemented by modern comforts, ensuring",
+        "a perfect balance of tradition and convenience. Enjoy a restful and stylish",
+        "environment where every detail is thoughtfully curated to enhance your living experience."
+      ],
+      "price": 15000
+    },
+    {
+      "id": 21,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Classic_Bedroom_3",
+      "title": "Classic Bedroom",
+      "category": "Bedroom",
+      "description": [
+        "Indulge in timeless elegance with our Classic Bedroom design.",
+        "This luxurious bedroom features rich wood furnishings, elegant drapery, and",
+        "sophisticated details that evoke a sense of grandeur. The use of plush fabrics,",
+        "ornate moldings, and refined color palettes creates a serene and opulent retreat.",
+        "",
+        "The classic design elements are complemented by modern comforts, ensuring",
+        "a perfect balance of tradition and convenience. Enjoy a restful and stylish",
+        "environment where every detail is thoughtfully curated to enhance your living experience."
+      ],
+      "price": 12000
+    },
+    {
+      "id": 22,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Boho_Bedroom_1",
+      "title": "Boho Bedroom",
+      "category": "Bedroom",
+      "description": [
+        "Embrace the free-spirited charm of our Boho Bedroom design.",
+        "This vibrant space blends eclectic patterns, bold colors, and an array of textures",
+        "to create a relaxed and inviting atmosphere. The use of woven textiles, natural",
+        "materials, and vintage accents brings a sense of whimsy and individuality.",
+        "",
+        "Layered rugs, macramé wall hangings, and unique decorative pieces enhance the",
+        "bohemian vibe, offering a cozy retreat where creativity and comfort intertwine.",
+        "Perfect for those who love a laid-back, yet stylish living environment."
+      ],
+      "price": 6000
+    },
+    {
+      "id": 23,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Boho_Bedroom_2",
+            "title": "Boho Bedroom",
+            "category": "Bedroom",
+      "description": [
+        "Embrace the free-spirited charm of our Boho Bedroom design.",
+        "This vibrant space blends eclectic patterns, bold colors, and an array of textures",
+        "to create a relaxed and inviting atmosphere. The use of woven textiles, natural",
+        "materials, and vintage accents brings a sense of whimsy and individuality.",
+        "",
+        "Layered rugs, macramé wall hangings, and unique decorative pieces enhance the",
+        "bohemian vibe, offering a cozy retreat where creativity and comfort intertwine.",
+        "Perfect for those who love a laid-back, yet stylish living environment."
+      ],
+      "price": 5000
+    },
+    {
+      "id": 24,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Boho_Bedroom_3",
+      "title": "Boho Bedroom",
+      "category": "Bedroom",
+      "description": [
+        "Embrace the free-spirited charm of our Boho Bedroom design.",
+        "This vibrant space blends eclectic patterns, bold colors, and an array of textures",
+        "to create a relaxed and inviting atmosphere. The use of woven textiles, natural",
+        "materials, and vintage accents brings a sense of whimsy and individuality.",
+        "",
+        "Layered rugs, macramé wall hangings, and unique decorative pieces enhance the",
+        "bohemian vibe, offering a cozy retreat where creativity and comfort intertwine.",
+        "Perfect for those who love a laid-back, yet stylish living environment."
+      ],
+      "price": 5500
+    },
+    {
+      "id": 25,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "ProjCard",
+      "title": "Minimal Bedroom",
+      "category": "Bedroom",
+      "description": [
+        "Discover the serenity of minimalist design with our Minimal Bedroom.",
+        "Featuring clean lines, neutral tones, and a clutter-free layout, this bedroom",
+        "emphasizes simplicity and functionality. The focus is on creating a tranquil space",
+        "where every element serves a purpose, offering a calming retreat from the bustle of daily life.",
+        "",
+        "The minimalist approach is complemented by high-quality materials and subtle details",
+        "that enhance the overall aesthetic, ensuring a sophisticated yet understated environment.",
+        "Perfect for those who appreciate the beauty of simplicity and clean design."
+      ],
+      "price": 1000
+    },    
+    {
+      "id": 26,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "ProjCard2",
+            "title": "Minimal Bedroom",
+            "category": "Bedroom",
+      "description": [
+        "Experience the essence of minimalism with our thoughtfully designed Minimal Bedroom.",
+        "This space showcases an uncluttered and elegant approach to design, featuring",
+        "sleek furniture, muted colors, and a focus on functionality. The simplicity of the",
+        "design creates a serene and harmonious environment, perfect for relaxation and rest.",
+        "",
+        "Every detail is carefully curated to maintain a clean and modern aesthetic,",
+        "ensuring that the bedroom feels both inviting and sophisticated. Ideal for those",
+        "seeking a stylish and tranquil space without excess."
+      ],
+      "price": 1300
+    },  
+    {
+      "id": 27,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "ProjCard3",
+      "title": "Minimal Bedroom",
+      "category": "Bedroom",
+      "description": [
+        "Discover the serenity of minimalist design with our Minimal Bedroom.",
+        "Featuring clean lines, neutral tones, and a clutter-free layout, this bedroom",
+        "emphasizes simplicity and functionality. The focus is on creating a tranquil space",
+        "where every element serves a purpose, offering a calming retreat from the bustle of daily life.",
+        "",
+        "The minimalist approach is complemented by high-quality materials and subtle details",
+        "that enhance the overall aesthetic, ensuring a sophisticated yet understated environment.",
+        "Perfect for those who appreciate the beauty of simplicity and clean design."
+      ],
+      "price": 1250
+    },    
+    {
+      "id": 28,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Kantry_1",
+      "title": "Country Kitchen",
+      "category": "Kitchen",
+      "description": [
+        "Step into a charming and inviting space with our Country Kitchen design.",
+        "This kitchen embodies rustic elegance with its warm wood finishes, classic cabinetry,",
+        "and cozy farmhouse details. The design emphasizes a welcoming atmosphere with",
+        "vintage-inspired accents and practical layouts that make cooking a joy.",
+        "",
+        "Traditional elements such as open shelving, a farmhouse sink, and charming hardware",
+        "blend seamlessly with modern conveniences, creating a functional yet picturesque",
+        "kitchen that feels like the heart of the home."
+      ],
+      "price": 5500
+    },
+    {
+      "id": 29,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Kantry_2",
+      "title": "Country Kitchen",
+      "category": "Kitchen",
+      "description": [
+        "Step into a charming and inviting space with our Country Kitchen design.",
+        "This kitchen embodies rustic elegance with its warm wood finishes, classic cabinetry,",
+        "and cozy farmhouse details. The design emphasizes a welcoming atmosphere with",
+        "vintage-inspired accents and practical layouts that make cooking a joy.",
+        "",
+        "Traditional elements such as open shelving, a farmhouse sink, and charming hardware",
+        "blend seamlessly with modern conveniences, creating a functional yet picturesque",
+        "kitchen that feels like the heart of the home."
+      ],
+      "price": 6000
+    },
+    {
+      "id": 30,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Kantry_3",
+      "title": "Country Kitchen",
+      "category": "Kitchen",
+      "description": [
+        "Step into a charming and inviting space with our Country Kitchen design.",
+        "This kitchen embodies rustic elegance with its warm wood finishes, classic cabinetry,",
+        "and cozy farmhouse details. The design emphasizes a welcoming atmosphere with",
+        "vintage-inspired accents and practical layouts that make cooking a joy.",
+        "",
+        "Traditional elements such as open shelving, a farmhouse sink, and charming hardware",
+        "blend seamlessly with modern conveniences, creating a functional yet picturesque",
+        "kitchen that feels like the heart of the home."
+      ],
+      "price": 5800
+    },
+    {
+      "id": 31,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Modern_Kitchan_1",
+      "title": "Modern Kitchen",
+      "category": "Kitchen",
+      "description": [
+        "Transform your culinary space with our sleek and stylish Modern Kitchen design.",
+        "Featuring cutting-edge appliances, minimalist cabinetry, and elegant countertops,",
+        "this kitchen epitomizes contemporary sophistication. The use of clean lines, high-gloss",
+        "finishes, and innovative storage solutions enhances both form and function.",
+        "",
+        "The modern design is complemented by an open layout that facilitates ease of movement",
+        "and creates a seamless cooking experience. Perfect for those who appreciate",
+        "a cutting-edge aesthetic combined with practical elegance."
+      ],
+      "price": 7000
+    },
+    {
+      "id": 32,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Modern_Kitchan_2",
+      "title": "Modern Kitchen",
+      "category": "Kitchen",
+      "description": [
+        "Transform your culinary space with our sleek and stylish Modern Kitchen design.",
+        "Featuring cutting-edge appliances, minimalist cabinetry, and elegant countertops,",
+        "this kitchen epitomizes contemporary sophistication. The use of clean lines, high-gloss",
+        "finishes, and innovative storage solutions enhances both form and function.",
+        "",
+        "The modern design is complemented by an open layout that facilitates ease of movement",
+        "and creates a seamless cooking experience. Perfect for those who appreciate",
+        "a cutting-edge aesthetic combined with practical elegance."
+      ],
+      "price": 7500
+    },
+    {
+      "id": 33,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Modern_Kitchan_3",
             "title": "Modern Kitchen",
             "category": "Kitchen",
-            "description": "A stylish modern kitchen with contemporary fixtures.",
-            "price": 10000,
-            "additionalText": [
-              "Step into our minimalist living area, where simplicity meets elegance.",
-              "This space is designed to promote relaxation and clarity, with clean lines and a neutral color palette.",
-              "The uncluttered layout features multifunctional furniture, ensuring that every piece serves a purpose.",
-              "Natural light floods the room through large, unobstructed windows, highlighting the beauty of the carefully chosen decor.",
-              "Soft, muted tones and natural materials create a warm and inviting atmosphere, making it the perfect place to unwind and find peace."
-            ]
-          },
-          {
-            "id": "3",
-            "image": "Classic3",
-            "title": "Living Area Classic 3",
-            "category": "Living Area",
-            "description": "A timeless classic living area with luxurious materials and furnishings.",
-            "price": 8000,
-            "additionalText": [
-              "Welcome to the Living Area Classic 3, where timeless elegance and comfort converge.",
-              "This room is adorned with rich, luxurious materials and classic furnishings that evoke a sense of grandeur.",
-              "The warm color palette, featuring deep wood tones and plush fabrics, creates an inviting and cozy ambiance.",
-              "Traditional elements, such as ornate moldings and a grand fireplace, blend seamlessly with modern comforts, providing a perfect balance of style and functionality.",
-              "This space is designed for both relaxation and entertaining, making it an ideal gathering place for family and friends."
-            ]
-          },
-        {
-            "id": 4,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 5,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 6,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 7,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 8,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 9,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 10,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 7,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 7,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 7,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 7,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 7,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 7,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 7,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 7,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 7,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 20,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 7,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 7,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 7,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 7,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 7,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 7,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 7,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 7,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 7,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 30,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 7,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 7,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 7,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 7,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 7,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 7,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 7,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 7,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 7,
-            "image": "Modern1",
-            "title": "Modern Bathroom",
-            "category": "Bathroom",
-            "description": [
-                "Experience the serene elegance of our minimalist",
-                "bathroom design. Sleek, clean lines define",
-                "the space, with a focus on functionality and",
-                "subtle luxury. The crisp white tiles and modern",
-                "fixtures create a calming atmosphere, perfect",
-                "",
-                "for unwinding after a long day. The floating",
-                "vanity and frameless glass shower add to the",
-                "uncluttered aesthetic, ensuring that every element",
-                "serves both form and function."
-              ],
-            "price": 5000
-        },
-        {
-            "id": 40,
-            "client": "Your client name",
-            "Category": "Interiors",
-            "tags": "Interior, Home",
-            "date": "27.07.2024",
-            "link": "example.com",
-            "image": "Living_Area_Classic_1",
-            "title": "Classic Living Area",
-            "category": "Living Area",
-            "description":[
-                "Welcome to the Living Area Classic 2, where timeless elegance and comfort converge.",
-                "This room is adorned with rich, luxurious materials and classic furnishings that evoke a sense of grandeur.",
-                "The warm color palette, featuring deep wood tones and plush fabrics, creates an inviting and cozy ambiance.",
-                "Traditional elements, such as ornate moldings and a grand fireplace, blend seamlessly with modern comforts, providing a perfect balance of style and functionality.",
-                "This space is designed for both relaxation and entertaining, making it an ideal gathering place for family and friends."
-              ],
-            "price": 9000
-        },
-        {
-            "id": 41,
-            "client": "Your client name",
-            "Category": "Interiors",
-            "tags": "Interior, Home",
-            "date": "27.07.2024",
-            "link": "example.com",
-            "image": "Living_Area_Classic_2",
-            "title": "Classic Living Area",
-            "category": "Living Area",
-            "description": [
-                "Welcome to the Living Area Classic 2, where timeless elegance and comfort converge.",
-                "This room is adorned with rich, luxurious materials and classic furnishings that evoke a sense of grandeur.",
-                "The warm color palette, featuring deep wood tones and plush fabrics, creates an inviting and cozy ambiance.",
-                "Traditional elements, such as ornate moldings and a grand fireplace, blend seamlessly with modern comforts, providing a perfect balance of style and functionality.",
-                "This space is designed for both relaxation and entertaining, making it an ideal gathering place for family and friends."
-              ],
-              "price": 9500
-        },
-        {
-            "id": 42,
-            "client": "Your client name",
-            "Category": "Interiors",
-            "tags": "Interior, Home",
-            "date": "27.07.2024",
-            "link": "example.com",
-            "image": "Living_Area_Classic_3",
-            "title": "Classic Living Area",
-            "category": "Living Area",
-            "description": [
-                "Welcome to the Living Area Classic 3, where timeless elegance and comfort converge.",
-                "This room is adorned with rich, luxurious materials and classic furnishings that evoke a sense of grandeur.",
-                "The warm color palette, featuring deep wood tones and plush fabrics, creates an inviting and cozy ambiance.",
-                "Traditional elements, such as ornate moldings and a grand fireplace, blend seamlessly with modern comforts, providing a perfect balance of style and functionality.",
-                "This space is designed for both relaxation and entertaining, making it an ideal gathering place for family and friends."
-              ],
-            "price": 9200
-        },
-        {
-            "id": 43,
-            "client": "Your client name",
-            "Category": "Interiors",
-            "tags": "Interior, Home",
-            "date": "27.07.2024",
-            "link": "example.com",
-            "image": "Living_Area_Minimalizm_1",
-            "title": "Minimalist Living Area",
-            "category": "Living Area",
-            "description": [
-                "Step into our minimalist living area, where simplicity meets elegance.",
-                "This space is designed to promote relaxation and clarity, with clean lines and a neutral color palette.",
-                "The uncluttered layout features multifunctional furniture, ensuring that every piece serves a purpose.",
-                "Natural light floods the room through large, unobstructed windows, highlighting the beauty of the carefully chosen decor.",
-                "Soft, muted tones and natural materials create a warm and inviting atmosphere, making it the perfect place to unwind and find peace."
-              ],
-            "price": 7500
-        },
-        {
-           "id": 44,
-           "client": "Your client name",
-           "Category": "Interiors",
-           "tags": "Interior, Home",
-           "date": "27.07.2024",
-           "link": "example.com",
-            "image": "Living_Area_Minimalizm_2",
-            "title": "Minimalist Living Area",
-            "category": "Living Area",
-            "description":[
-                "Step into our minimalist living area, where simplicity meets elegance.",
-                "This space is designed to promote relaxation and clarity, with clean lines and a neutral color palette.",
-                "The uncluttered layout features multifunctional furniture, ensuring that every piece serves a purpose.",
-                "Natural light floods the room through large, unobstructed windows, highlighting the beauty of the carefully chosen decor.",
-                "Soft, muted tones and natural materials create a warm and inviting atmosphere, making it the perfect place to unwind and find peace."
-              ],
-              "price": 7800
-        },
-        {
-            "id": 45,
-            "client": "Your client name",
-            "Category": "Interiors",
-            "tags": "Interior, Home",
-            "date": "27.07.2024",
-            "link": "example.com",
-            "image": "Living_Area_Minimalizm_3",
-            "title": "Minimalist Living Area",
-            "category": "Living Area",
-            "description": [
-                "Step into our minimalist living area, where simplicity meets elegance.",
-                "This space is designed to promote relaxation and clarity, with clean lines and a neutral color palette.",
-                "The uncluttered layout features multifunctional furniture, ensuring that every piece serves a purpose.",
-                "Natural light floods the room through large, unobstructed windows, highlighting the beauty of the carefully chosen decor.",
-                "Soft, muted tones and natural materials create a warm and inviting atmosphere, making it the perfect place to unwind and find peace."
-              ],
-              "price": 7700
-        }
-    ]
+      "description": [
+        "Transform your culinary space with our sleek and stylish Modern Kitchen design.",
+        "Featuring cutting-edge appliances, minimalist cabinetry, and elegant countertops,",
+        "this kitchen epitomizes contemporary sophistication. The use of clean lines, high-gloss",
+        "finishes, and innovative storage solutions enhances both form and function.",
+        "",
+        "The modern design is complemented by an open layout that facilitates ease of movement",
+        "and creates a seamless cooking experience. Perfect for those who appreciate",
+        "a cutting-edge aesthetic combined with practical elegance."
+      ],
+      "price": 7200
+    },
+    {
+      "id": 34,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Rustilniy_1",
+      "title": "Rustic Kitchen",
+      "category": "Kitchen",
+      "description": [
+        "This rustic style kitchen combines natural materials and warm tones to create a cozy atmosphere.",
+        "The use of wood and stone gives the interior a natural and authentic look.",
+        "Thoughtful lighting and functional layout make the kitchen both convenient and stylish."
+      ],
+      "price": 6400
+    },
+    {
+      "id": 35,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Rustilniy_2",
+            "title": "Rustic Kitchen",
+            "category": "Kitchen",
+      "description": [
+        "This rustic style kitchen combines natural materials and warm tones to create a cozy atmosphere.",
+        "The use of wood and stone gives the interior a natural and authentic look.",
+        "Thoughtful lighting and functional layout make the kitchen both convenient and stylish."
+      ],
+      "price": 6500
+    },
+    {
+      "id": 36,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Rustilniy_3",
+            "title": "Rustic Kitchen",
+            "category": "Kitchen",
+      "description": [
+        "This rustic style kitchen combines natural materials and warm tones to create a cozy atmosphere.",
+        "The use of wood and stone gives the interior a natural and authentic look.",
+        "Thoughtful lighting and functional layout make the kitchen both convenient and stylish."
+      ],
+      "price": 6300
+    },
+    {
+      "id": 37,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Living_Area_1",
+      "title": "Modern Living Area",
+      "category": "Living Area",
+      "description": [
+        "This modern living area features sleek design elements and a minimalist aesthetic, creating a spacious and elegant environment.",
+        "High-quality materials and contemporary furniture offer both comfort and style.",
+        "The open layout and large windows enhance natural light and provide a seamless connection with the outdoor space."
+      ],
+      "price": 8000
+    },
+    {
+      "id": 38,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Living_Area_2",
+      "title": "Modern Living Area",
+      "category": "Living Area",
+      "description": [
+        "This modern living area features sleek design elements and a minimalist aesthetic, creating a spacious and elegant environment.",
+        "High-quality materials and contemporary furniture offer both comfort and style.",
+        "The open layout and large windows enhance natural light and provide a seamless connection with the outdoor space."
+      ],
+      "price": 8500
+    },
+    {
+      "id": 39,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Living_Area_3",
+      "title": "Modern Living Area",
+      "category": "Living Area",
+      "description": [
+        "This modern living area features sleek design elements and a minimalist aesthetic, creating a spacious and elegant environment.",
+        "High-quality materials and contemporary furniture offer both comfort and style.",
+        "The open layout and large windows enhance natural light and provide a seamless connection with the outdoor space."
+      ],
+      "price": 8200
+    },
+    {
+      "id": 40,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Living_Area_Classic_1",
+      "title": "Classic Living Area",
+      "category": "Living Area",
+      "description": [
+        "Welcome to the Living Area Classic 2, where timeless elegance and comfort converge.",
+        "This room is adorned with rich, luxurious materials and classic furnishings that evoke a sense of grandeur.",
+        "The warm color palette, featuring deep wood tones and plush fabrics, creates an inviting and cozy ambiance.",
+        "Traditional elements, such as ornate moldings and a grand fireplace, blend seamlessly with modern comforts, providing a perfect balance of style and functionality.",
+        "This space is designed for both relaxation and entertaining, making it an ideal gathering place for family and friends."
+      ],
+      "price": 9000
+    },
+    {
+      "id": 41,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Living_Area_Classic_2",
+      "title": "Classic Living Area",
+      "category": "Living Area",
+      "description": [
+        "Welcome to the Living Area Classic 2, where timeless elegance and comfort converge.",
+        "This room is adorned with rich, luxurious materials and classic furnishings that evoke a sense of grandeur.",
+        "The warm color palette, featuring deep wood tones and plush fabrics, creates an inviting and cozy ambiance.",
+        "Traditional elements, such as ornate moldings and a grand fireplace, blend seamlessly with modern comforts, providing a perfect balance of style and functionality.",
+        "This space is designed for both relaxation and entertaining, making it an ideal gathering place for family and friends."
+      ],
+      "price": 9500
+    },
+    {
+      "id": 42,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Living_Area_Classic_3",
+      "title": "Classic Living Area",
+      "category": "Living Area",
+      "description": [
+        "Welcome to the Living Area Classic 3, where timeless elegance and comfort converge.",
+        "This room is adorned with rich, luxurious materials and classic furnishings that evoke a sense of grandeur.",
+        "The warm color palette, featuring deep wood tones and plush fabrics, creates an inviting and cozy ambiance.",
+        "Traditional elements, such as ornate moldings and a grand fireplace, blend seamlessly with modern comforts, providing a perfect balance of style and functionality.",
+        "This space is designed for both relaxation and entertaining, making it an ideal gathering place for family and friends."
+      ],
+      "price": 9200
+    },
+    {
+      "id": 43,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Living_Area_Minimalizm_1",
+      "title": "Minimalist Living Area",
+      "category": "Living Area",
+      "description": [
+        "Step into our minimalist living area, where simplicity meets elegance.",
+        "This space is designed to promote relaxation and clarity, with clean lines and a neutral color palette.",
+        "The uncluttered layout features multifunctional furniture, ensuring that every piece serves a purpose.",
+        "Natural light floods the room through large, unobstructed windows, highlighting the beauty of the carefully chosen decor.",
+        "Soft, muted tones and natural materials create a warm and inviting atmosphere, making it the perfect place to unwind and find peace."
+      ],
+      "price": 7500
+    },
+    {
+      "id": 44,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Living_Area_Minimalizm_2",
+      "title": "Minimalist Living Area",
+      "category": "Living Area",
+      "description": [
+        "Step into our minimalist living area, where simplicity meets elegance.",
+        "This space is designed to promote relaxation and clarity, with clean lines and a neutral color palette.",
+        "The uncluttered layout features multifunctional furniture, ensuring that every piece serves a purpose.",
+        "Natural light floods the room through large, unobstructed windows, highlighting the beauty of the carefully chosen decor.",
+        "Soft, muted tones and natural materials create a warm and inviting atmosphere, making it the perfect place to unwind and find peace."
+      ],
+      "price": 7800
+    },
+    {
+      "id": 45,
+      "client": "Your client name",
+      "Category": "Interiors",
+      "tags": "Interior, Home",
+      "date": "27.07.2024",
+      "link": "example.com",
+      "image": "Living_Area_Minimalizm_3",
+      "title": "Minimalist Living Area",
+      "category": "Living Area",
+      "description": [
+        "Step into our minimalist living area, where simplicity meets elegance.",
+        "This space is designed to promote relaxation and clarity, with clean lines and a neutral color palette.",
+        "The uncluttered layout features multifunctional furniture, ensuring that every piece serves a purpose.",
+        "Natural light floods the room through large, unobstructed windows, highlighting the beauty of the carefully chosen decor.",
+        "Soft, muted tones and natural materials create a warm and inviting atmosphere, making it the perfect place to unwind and find peace."
+      ],
+      "price": 7700
+    }
+  ]
 }

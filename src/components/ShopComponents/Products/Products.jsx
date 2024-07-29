@@ -14,7 +14,6 @@ const Products = () => {
   const [products, setProducts] = useState([]);
   const [selectedFilter, setSelectedFilter] = useState('All');
   const [currentPage, setCurrentPage] = useState(1);
-  const [isCartDisabled, setIsCartDisabled] = useState(false);
 
   const ITEMS_PER_PAGE = 6;
 
@@ -48,13 +47,6 @@ const Products = () => {
   const indexOfFirstItem = indexOfLastItem - ITEMS_PER_PAGE;
   const currentItems = filteredProjects.slice(indexOfFirstItem, indexOfLastItem);
 
-  const disableCartButton = () => {
-    setIsCartDisabled(true);
-    setTimeout(() => {
-      setIsCartDisabled(false);
-    }, 5000);
-  };
-
   return (
     <div className="projects">
       <div className="container">
@@ -69,8 +61,6 @@ const Products = () => {
               description={project.description}
               category={project.category}
               price={project.price}
-              isCartDisabled={isCartDisabled}
-              onAddToCart={disableCartButton}
             />
           ))}
         </div>

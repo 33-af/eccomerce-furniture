@@ -1,30 +1,22 @@
 import { useNavigate } from 'react-router-dom';
-import { useState, useEffect } from 'react';
+import { useState} from 'react';
 import './ShopCart.css'
 import RemoveFromCart from '../../components/ShopComponents/Toast/RemoveFromCart/RemoveFromCart';
-
+import { useCart } from '../../context/useContext';
 
 
 const ShopCart = () => {
-  const [products, setProducts] = useState([]);
+  const { cartItems, removeFromCart, clearCart } = useCart(); // Use cart context
   const navigate = useNavigate();
   const [notificationType, setNotificationType] = useState(null);
 
-  useEffect(() => {
-    const savedShopCart = JSON.parse(localStorage.getItem('shopCart')) || [];
-    setProducts(savedShopCart);
-  }, []);
-
   const handleRemove = (id) => {
-    const updatedShopCart = products.filter((product) => product.id !== id);
-    setProducts(updatedShopCart);
-    localStorage.setItem('shopCart', JSON.stringify(updatedShopCart));
+    removeFromCart(id);
     showNotification('removed');
   };
 
   const handleClear = () => {
-    setProducts([]);
-    localStorage.removeItem('shopCart');
+    clearCart();
   };
 
   const showNotification = (type) => {
@@ -43,7 +35,7 @@ const ShopCart = () => {
           </>
         } />
       )}
-      {products.length === 0 ? (
+      {cartItems.length === 0 ? (
         <div className="empty-message">Oh, your cart is empty.</div>
       ) : (
         <>
@@ -53,7 +45,7 @@ const ShopCart = () => {
             <button className="clear-button" onClick={handleClear}>Delete</button>
           </div>
           <div className="product-grid">
-            {products.map((product) => (
+            {cartItems.map((product) => (
               <div className="product-card" key={product.id}>
                 <img className="product-image" src={product.image} alt={product.title} />
                 <div className="product-info">
@@ -70,7 +62,6 @@ const ShopCart = () => {
       )}
     </div>
   );
-
 };
 
 export default ShopCart;
