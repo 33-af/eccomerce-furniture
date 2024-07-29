@@ -5,8 +5,8 @@ import Call from "../assets/Call.svg";
 import Twitter from "../assets/twitter.svg";
 import Facebook from "../assets/facebook.svg";
 import Instagram from "../assets/instagram.svg";
-import Delete_Icon from '../assets/deleteIcon.svg'
-import Cart from '../assets/cart.svg'
+import Delete_Icon from '../assets/deleteIcon.svg';
+import Cart from '../assets/cart.svg';
 import ProjectPhoto_1 from "../assets/project-photo1.png";
 import ProjectPhoto_2 from "../assets/project-photo2.png";
 import ProjectPhoto_3 from "../assets/project-photo3.png";
@@ -24,10 +24,10 @@ import ClientLogo_3 from "../assets/client-logo03.png";
 import ClientLogo_4 from "../assets/client-logo04.png";
 import ClientLogo_5 from "../assets/client-logo05.png";
 import Error_Page from "../assets/404Photo.jpg";
-import Heart from '../assets/heart-svgrepo-com (2).svg'
+import Heart from '../assets/heart-svgrepo-com (2).svg';
 import ProjCard from "../assets/projCard.png";
-import ProjCard2 from "../assets/projCard2.jpg"
-import ProjCard3 from "../assets/minimalBedroom3.webp"
+import ProjCard2 from "../assets/projCard2.jpg";
+import ProjCard3 from "../assets/minimalBedroom3.webp";
 // src/assets/index.js
 import Modern1 from "../assets/modern1.jpg";
 import Modern2 from "../assets/modern2.jpg";
@@ -43,7 +43,7 @@ import Vintazh3 from "../assets/vintazh3.avif";
 import Vintazh4 from "../assets/vintazh4.jpg";
 import Franch_Bedroom_1 from "../assets/franchBedroom1.jpg";
 import Franch_Bedroom_2 from "../assets/franchBedroom2.jpg";
-import Franch_Bedroom_3 from "../assets/franchBedroom3.jpg"
+import Franch_Bedroom_3 from "../assets/franchBedroom3.jpg";
 import Industrial_Bedroom_1 from "../assets/IndustrialBedroom.jpg";
 import Industrial_Bedroom_2 from "../assets/IndustrialBedroom2.avif";
 import Industrial_Bedroom_3 from "../assets/IndustrialBedroom3.jpg";
@@ -72,12 +72,12 @@ import Living_Area_Minimalizm_1 from "../assets/livingAreaMinimalizm1.webp";
 import Living_Area_Minimalizm_2 from "../assets/livingAreaMinimalizm2.jpg";
 import Living_Area_Minimalizm_3 from "../assets/livingAreaMinimalizm3.jpg";
 import SearchIcon2 from "../assets/cdaSearch.png";
-import Succesfull from "../assets/check-circle.svg"
-import Warning from "../assets/warning.png"
-import WarningRed from "../assets/warningRed.png"
+import Succesfull from "../assets/check-circle.svg";
+import Warning from "../assets/warning.png";
+import WarningRed from "../assets/warningRed.png";
 
 import Banner_Product_Category from "../assets/bannerPhoto.jpg";
-import EditIcon from '../assets/edit-icon.svg'
+import EditIcon from '../assets/edit-icon.svg';
 
 
 

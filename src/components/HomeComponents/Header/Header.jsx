@@ -72,7 +72,6 @@ const Header = () => {
           <li className="header__nav">
             <NavLink to="/blog" className="header__nav__link" activeClassName="active">Blog</NavLink>
           </li>
-
           <li className="header__nav">
             <NavLink to="/login" className="header__nav__link" activeClassName="active">Log In</NavLink>
           </li>
@@ -80,16 +79,13 @@ const Header = () => {
             <NavLink to="/contact" className="header__nav__link" activeClassName="active">Contact</NavLink>
           </li>
           <li className="header__nav">
-            <NavLink to="/favoriteCart" className="header__nav__link" activeClassName="active"><FaRegHeart />
-            </NavLink>
+            <NavLink to="/favoriteCart" className="header__nav__link" activeClassName="active"><FaRegHeart /></NavLink>
           </li>
           <li className="header__nav">
-            <NavLink to="/shopCart" className="header__nav__link" activeClassName="active"><FaCartArrowDown />
-            </NavLink>
+            <NavLink to="/shopCart" className="header__nav__link" activeClassName="active"><FaCartArrowDown /></NavLink>
           </li>
           <li className="header__nav">
-            <NavLink to="/profile" className="header__nav__link" activeClassName="active">Profile
-            </NavLink>
+            <NavLink to="/profile" className="header__nav__link" activeClassName="active">Profile</NavLink>
           </li>
         </ul>
         <form className="searchForm flex">
