@@ -18,11 +18,6 @@
       },
       {
         "id": 3,
-        "client": "Your client name",
-        "Category": "Interiors",
-        "tags": "Interior, Home",
-        "date": "27.07.2024",
-        "link": "example.com",
         "image": "Modern3",
         "title": "Modern Bathroom",
         "category": "Bathroom",

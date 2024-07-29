@@ -1,8 +1,8 @@
 import { useForm } from 'react-hook-form';
 import {Link, useNavigate}  from 'react-router-dom'
-import { signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../../../utils/firebaseConfig';
-
+import { signInWithEmailAndPassword } from 'firebase/auth';
+// import './SignIn.css'
 
 const SignIn = () => {
     const { register, handleSubmit, formState: { errors } } = useForm();

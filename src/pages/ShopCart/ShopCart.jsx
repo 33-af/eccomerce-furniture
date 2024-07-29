@@ -5,10 +5,13 @@ import RemoveFromCart from '../../components/ShopComponents/Toast/RemoveFromCart
 import { useCart } from '../../context/useContext';
 
 
+
 const ShopCart = () => {
   const { cartItems, removeFromCart, clearCart } = useCart(); // Use cart context
   const navigate = useNavigate();
   const [notificationType, setNotificationType] = useState(null);
+
+
 
   const handleRemove = (id) => {
     removeFromCart(id);
@@ -23,7 +26,7 @@ const ShopCart = () => {
     setNotificationType(type);
     setTimeout(() => {
       setNotificationType(null);
-    }, 3000); // Hide notification after 3 seconds
+    }, 3000); 
   };
 
   return (
@@ -55,6 +58,7 @@ const ShopCart = () => {
                   <div className="product-price">{product.price}$</div>
                 </div>
                 <button className="remove-button" onClick={() => handleRemove(product.id)}>Delete</button>
+         
               </div>
             ))}
           </div>

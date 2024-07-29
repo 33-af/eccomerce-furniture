@@ -1,7 +1,12 @@
 import { useState } from 'react';
 import './ShopFilter.css'
 
+
+//приходит функция обратного вызова и вызывается когда пользователь меняет фильтр
 const ShopFilter = ({ onFilterChange }) => {
+
+
+  //хранит текущий выбраный по дефолту все
   const [activeFilter, setActiveFilter] = useState('All');
 
   const handleFilterClick = (filter) => {

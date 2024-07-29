@@ -1,23 +1,39 @@
-import { NavLink } from "react-router-dom";
+import { NavLink,  useNavigate } from "react-router-dom";
 import { Logo, SearchIcon } from "../../../assets";
 import './Header.css';
 import { useEffect, useState } from "react";
 import { FaRegHeart } from "react-icons/fa";
 import { FaCartArrowDown } from "react-icons/fa6";
+import { useSearch } from "../../../context/searchContext";
 
 const Header = () => {
+  const { searchQuery, setSearchQuery } = useSearch();
   const [searchActive, setSearchActive] = useState(false);
   const [menuActive, setMenuActive] = useState(false);
+  const navigate = useNavigate();
+
 
   const toggleSearch = (event) => {
     event.preventDefault();
     setSearchActive(!searchActive);
   };
 
+  const handleSearchChange = (event) => {
+    const query = event.target.value.toLowerCase();
+    setSearchQuery(query); // Update the query in context
+
+    // Redirect to the products page if searchQuery is not empty
+    if (query.trim() !== '') {
+      navigate('/shop'); // Redirect to products page
+    }
+  };
+
   const toggleMenu = () => {
     setMenuActive(!menuActive);
     document.body.classList.toggle('lock', !menuActive);
   };
+
+ 
 
   useEffect(() => {
     const menuLinks = document.querySelectorAll('.header__nav__link[data-goto]');
@@ -94,7 +110,14 @@ const Header = () => {
               <img src={SearchIcon} alt="Search" />
             </button>
           </label>
-          <input type="search" id="header__search" className={`header__search ${searchActive ? 'active' : ''}`} />
+          <input
+            type="search"
+            id="header__search"
+            className={`header__search ${searchActive ? 'active' : ''}`}
+            value={searchQuery}
+            onChange={handleSearchChange}
+            placeholder="Search by title or category"
+          />
         </form>
       </div>
     </header>

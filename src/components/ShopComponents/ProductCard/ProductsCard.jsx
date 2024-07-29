@@ -2,7 +2,7 @@ import {  useState } from 'react';
 import './ProductsCard.css';
 import { FaRegHeart } from "react-icons/fa";
 import { FiShoppingCart } from "react-icons/fi";
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import AddToCart from '../Toast/AddToCart/AddToCart';
 import Exists from '../Toast/Exists/Exists';
 import { Succesfull, Warning } from '../../../assets';
@@ -11,12 +11,13 @@ import { useCart } from '../../../context/useContext';
 
 
 
-const ProductsCard = ({ id, image, title, category, price, description }) => {
+const ProductsCard = ({ id, image, title, category, price, description, isAuthenticated }) => {
+
   const [favorites, setFavorites] = useState([]);
   const [notificationType, setNotificationType] = useState(null);
   const [isCartDisabled, setIsCartDisabled] = useState(false); // New state for disabling the cart button
-
   const { cartItems, addToCart } = useCart(); // Use cart context
+  const navigate = useNavigate();
 
   const addToFavorites = () => {
     const newFavorite = { id, image, title, category, price, description };
@@ -33,6 +34,11 @@ const ProductsCard = ({ id, image, title, category, price, description }) => {
   };
 
   const addShopCart = () => {
+    if (!isAuthenticated) {
+      navigate('/login');
+      return;
+    }
+
     if (isCartDisabled) return; // Prevent action if button is disabled
 
     const newShopCartItem = { id, image, title, category, price, description };
