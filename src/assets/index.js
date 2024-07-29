@@ -40,7 +40,7 @@ import Vintazh1 from "../assets/vintazh1.webp";
 import Vintazh2 from "../assets/vintazh2.jpg";
 import Vintazh3 from "../assets/vintazh3.avif";
 import Vintazh4 from "../assets/vintazh4.jpg";
-import Franch_Bedroom_1 from "../assets/franchBedroom1.jpg";
+import Franch_Bedroom_1 from "../assets/lala.png";
 import Franch_Bedroom_2 from "../assets/franchBedroom2.jpg";
 import Franch_Bedroom_3 from "../assets/franchBedroom3.jpg";
 import Industrial_Bedroom_1 from "../assets/IndustrialBedroom.jpg";
