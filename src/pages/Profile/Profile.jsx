@@ -6,6 +6,9 @@ import { auth, db } from '../../utils/firebaseConfig';
 import { doc, updateDoc, getDoc } from 'firebase/firestore';
 import { useAuth } from '../../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
+import { useFavorites } from '../../context/FavoriteContext';
+import { useCart } from '../../context/useContext';
+
 
 const Profile = () => {
   const navigate = useNavigate();
@@ -19,20 +22,37 @@ const Profile = () => {
     location: '',
     dateOfBirth: '',
   });
-
+  const [loading, setLoading] = useState(true); // Add loading state
   const { signOut } = useAuth();
+  const { clearFavorites } = useFavorites();
+  const { clearCart } = useCart();
+
 
   useEffect(() => {
     const fetchUserData = async () => {
-      const user = auth.currentUser;
-      if (user) {
-        const docRef = doc(db, 'users', user.uid);
-        const docSnap = await getDoc(docRef);
-        if (docSnap.exists()) {
-          setFormData(docSnap.data());
+      try {
+        const storedData = localStorage.getItem('userData');
+        if (storedData) {
+          setFormData(JSON.parse(storedData));
+        } else {
+          const user = auth.currentUser;
+          if (user) {
+            const docRef = doc(db, 'users', user.uid);
+            const docSnap = await getDoc(docRef);
+            if (docSnap.exists()) {
+              const userData = docSnap.data();
+              setFormData(userData);
+              localStorage.setItem('userData', JSON.stringify(userData));
+            }
+          }
         }
+      } catch (error) {
+        console.error('Error fetching user data:', error);
+      } finally {
+        setLoading(false);
       }
     };
+
     fetchUserData();
   }, []);
 
@@ -46,24 +66,39 @@ const Profile = () => {
   };
 
   const handleSaveChanges = async () => {
-    const user = auth.currentUser;
-    if (user) {
-      const docRef = doc(db, 'users', user.uid);
-      await updateDoc(docRef, formData);
-      console.log('Changes saved:', formData);
-      setIsChanged(false);
+    try {
+      const user = auth.currentUser;
+      if (user) {
+        const docRef = doc(db, 'users', user.uid);
+        await updateDoc(docRef, formData);
+        localStorage.setItem('userData', JSON.stringify(formData));
+        console.log('Changes saved:', formData);
+        setIsChanged(false);
+      }
+    } catch (error) {
+      console.error('Error saving changes:', error);
     }
   };
 
   const handleSignOut = async () => {
     try {
       await signOut();
-      console.log('Signed out successfully');
+      localStorage.removeItem('userData');
+      clearFavorites();
+      clearCart();
       navigate('/');
     } catch (error) {
       console.error('Sign Out error:', error);
     }
   };
+
+  if (loading) {
+    return (
+      <div className="spinnerWrapper">
+        <div className="spinner"></div>
+      </div>
+    );
+  }
 
   return (
     <div className="citeContent">
@@ -117,7 +152,7 @@ const Profile = () => {
 
             <form className="profile__Form flex">
               <label htmlFor="email" className="profile__FormInputLabel">Email account</label>
-              <input
+              <input disabled={true}
                 type="email"
                 id="email"
                 className="profile__FormInput"
@@ -129,7 +164,7 @@ const Profile = () => {
 
             <form className="profile__Form flex">
               <label htmlFor="password" className="profile__FormInputLabel">Password</label>
-              <input
+              <input disabled={true}
                 type="password"
                 id="password"
                 className="profile__FormInput"
@@ -171,7 +206,7 @@ const Profile = () => {
             </form>
           </div>
 
-          <button className="logOut flex" onClick={handleSignOut}>
+          <button className="logOut flex" disabled={!formData} onClick={handleSignOut}>
             <IoMdLogOut />
             Log Out
           </button>
@@ -181,4 +216,4 @@ const Profile = () => {
   );
 };
 
-export default Profile;
+export default Profile; 

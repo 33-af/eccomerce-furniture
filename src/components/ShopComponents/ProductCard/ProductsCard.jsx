@@ -1,4 +1,4 @@
-import {  useState } from 'react';
+import { useState } from 'react';
 import './ProductsCard.css';
 import { FaRegHeart } from "react-icons/fa";
 import { FiShoppingCart } from "react-icons/fi";
@@ -7,42 +7,44 @@ import AddToCart from '../Toast/AddToCart/AddToCart';
 import Exists from '../Toast/Exists/Exists';
 import { Succesfull, Warning } from '../../../assets';
 import { useCart } from '../../../context/useContext';
+import { useAuth } from '../../../context/AuthContext';
+import { useFavorites } from '../../../context/FavoriteContext';
+import AddToFavorites from '../Toast/AddToFavorites/AddToFavorites';
+import ExistsFavorites from '../Toast/ExistsFavorites/ExistsFavorites'
 
-
-
-
-const ProductsCard = ({ id, image, title, category, price, description, isAuthenticated }) => {
-
-  const [favorites, setFavorites] = useState([]);
+const ProductsCard = ({ id, image, title, category, price, description }) => {
   const [notificationType, setNotificationType] = useState(null);
   const [isCartDisabled, setIsCartDisabled] = useState(false); // New state for disabling the cart button
-  const { cartItems, addToCart } = useCart(); // Use cart context
+  const { cartItems, addToCart } = useCart();
+  const { favorites, addToFavorites } = useFavorites();
+  const { user } = useAuth();
   const navigate = useNavigate();
 
-  const addToFavorites = () => {
+  const handleAddToFavorites = () => {
     const newFavorite = { id, image, title, category, price, description };
+
     const isFavoriteExists = favorites.some(favorite => favorite.id === id);
+
     if (!isFavoriteExists && favorites.length < 8) {
-      const updatedFavorites = [...favorites, newFavorite];
-      setFavorites(updatedFavorites);
-      localStorage.setItem('favorites', JSON.stringify(updatedFavorites));
+      addToFavorites(newFavorite);
+      handleAddToCart('addedToFavorites');
     } else if (isFavoriteExists) {
-      alert('Этот товар уже добавлен в избранное.');
+      handleAddToCart('existsFavorites');
     } else if (favorites.length >= 8) {
       alert('Можно добавить до 8 товаров в избранное.');
     }
   };
 
   const addShopCart = () => {
-    if (!isAuthenticated) {
+    if (!user) {
       navigate('/login');
       return;
     }
-
-    if (isCartDisabled) return; // Prevent action if button is disabled
-
+  
+    if (isCartDisabled) return;
+  
     const newShopCartItem = { id, image, title, category, price, description };
-
+  
     if (cartItems.some(item => item.id === id)) {
       handleAddToCart('exists');
     } else if (cartItems.length < 5) {
@@ -51,16 +53,13 @@ const ProductsCard = ({ id, image, title, category, price, description, isAuthen
     } else {
       alert('Можно добавить до 5 товаров в корзину.');
     }
-
-    // Disable the button
+  
     setIsCartDisabled(true);
-
-    // Re-enable the button after 5 seconds
+  
     setTimeout(() => {
       setIsCartDisabled(false);
     }, 5000);
   };
-
   const handleAddToCart = (type) => {
     setNotificationType(type);
     setTimeout(() => {
@@ -70,10 +69,26 @@ const ProductsCard = ({ id, image, title, category, price, description, isAuthen
 
   return (
     <>
+      {notificationType === 'addedToFavorites' && (
+        <AddToFavorites message={
+          <>
+            Your product has been successfully added to your favorites
+            <img src={Succesfull} alt="Success" className="notification__icon" />
+          </>
+        } />
+      )}
+      {notificationType === 'existsFavorites' && (
+        <ExistsFavorites message={
+          <>
+            This product is already in your favorites
+            <img src={Warning} alt="Warning" className="notification__icon__exists" />
+          </>
+        } />
+      )}
       {notificationType === 'added' && (
         <AddToCart message={
           <>
-            Your product has been successfully added to your cart 
+            Your product has been successfully added to your cart
             <img src={Succesfull} alt="Success" className="notification__icon" />
           </>
         } />
@@ -81,7 +96,7 @@ const ProductsCard = ({ id, image, title, category, price, description, isAuthen
       {notificationType === 'exists' && (
         <Exists message={
           <>
-            This product is already in your cart 
+            This product is already in your cart
             <img src={Warning} alt="Warning" className="notification__icon__exists" />
           </>
         } />
@@ -98,7 +113,11 @@ const ProductsCard = ({ id, image, title, category, price, description, isAuthen
           </div>
           <div className="price">{price}$</div>
           <button className="favoritesButton">
-            <FaRegHeart className="heart" onClick={addToFavorites} />
+            <FaRegHeart
+              className={`heart ${isCartDisabled ? 'disabled' : ''}`}
+              onClick={handleAddToFavorites}
+              style={{ cursor: isCartDisabled ? 'not-allowed' : 'pointer' }}
+            />
             <FiShoppingCart
               className={`cart ${isCartDisabled ? 'disabled' : ''}`}
               onClick={addShopCart}

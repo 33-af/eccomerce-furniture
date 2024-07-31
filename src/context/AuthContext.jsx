@@ -1,6 +1,8 @@
 import  { createContext, useContext, useState, useEffect } from 'react';
 import {  signInWithEmailAndPassword, signOut as firebaseSignOut, createUserWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../utils/firebaseConfig'; // Correct import
+
+
 const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
@@ -49,4 +51,4 @@ export const AuthProvider = ({ children }) => {
 
 export const useAuth = () => {
   return useContext(AuthContext);
-};
+}; 

@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import { useState} from 'react';
+import {  useState} from 'react';
 import './ShopCart.css'
 import RemoveFromCart from '../../components/ShopComponents/Toast/RemoveFromCart/RemoveFromCart';
 import { useCart } from '../../context/useContext';
@@ -7,21 +7,19 @@ import { useCart } from '../../context/useContext';
 
 
 const ShopCart = () => {
-  const { cartItems, removeFromCart, clearCart } = useCart(); // Use cart context
+  const { cartItems, removeFromCart, clearCart } = useCart(); 
   const navigate = useNavigate();
   const [notificationType, setNotificationType] = useState(null);
 
-
+  
 
   const handleRemove = (id) => {
     removeFromCart(id);
     showNotification('removed');
   };
-
   const handleClear = () => {
     clearCart();
   };
-
   const showNotification = (type) => {
     setNotificationType(type);
     setTimeout(() => {

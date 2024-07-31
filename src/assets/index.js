@@ -72,6 +72,9 @@ import Living_Area_Minimalizm_2 from "../assets/min.jpg";
 import Living_Area_Minimalizm_3 from "../assets/mi.jpg";
 
 
+import Loaderr from "../assets/loader.png";
+
+
 import SearchIcon2 from "../assets/cdaSearch.png";
 import Succesfull from "../assets/check-circle.svg";
 import Warning from "../assets/warning.png";
@@ -87,7 +90,7 @@ export {
     Logo, SearchIcon, Header_banner, Twitter, Facebook, Instagram, Call, Delete_Icon, Cart, Heart, EditIcon, ProjCard3,Succesfull,
     ProjectPhoto_1, ProjectPhoto_2, ProjectPhoto_3, ProjectPhoto_4, PeopleAvatar, In,  Favicon, Design_1, Design_2, Design, ProjCard,  ProjCard2,
     ContactPhoto, ClientLogo_1, ClientLogo_2, ClientLogo_3, ClientLogo_4, ClientLogo_5, Error_Page, Modern1, SearchIcon2,
-    Modern2, Warning, WarningRed,
+    Modern2, Warning, WarningRed, Loaderr,
     Modern3,
     Skandinavia1,
     Skandinavia2,
